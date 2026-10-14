@@ -1,0 +1,3208 @@
+{
+  "source_selection": "51 unique submitted notebook refs plus 18 account RSNA refs; union57",
+  "notebook_refs_requested": 57,
+  "notebook_refs_processed": 57,
+  "notebook_refs_recovered": 56,
+  "notebook_refs_unavailable": 1,
+  "publication_policy": "Sources and dependency metadata only; outputs, execution counts, widget state, attachments, reports, label tables, and credential literals excluded.",
+  "entries": [
+    {
+      "notebook_ref": "aadigupta7686/0-899-let-me-cook",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/0-899-let-me-cook",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "341172490",
+        "341177035",
+        "341206502",
+        "341237150",
+        "341369506",
+        "342072460",
+        "342113185"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:47.102084+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "099927c373efd04ef3cbfa8c0a5fae8926ef9038e144e6836c08108fbdcdce8e",
+      "publication_source_sha256": "37204f6f04bbdf0588281b45d3d44c763f2961b98aaf7b76d901aebf959b7656",
+      "kernel_metadata": {
+        "id": "aadigupta7686/0-899-let-me-cook",
+        "id_no": 130178726,
+        "title": "[0.899] Let me Cook",
+        "code_file": "0-899-let-me-cook.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": false,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "pilkwang/rsna-knee-llm-labels",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "0-899-let-me-cook.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__0-899-let-me-cook"
+    },
+    {
+      "notebook_ref": "aadigupta7686/bend-the-knee-to-dinov3-ensembled",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/bend-the-knee-to-dinov3-ensembled",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "342156844",
+        "342181768"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:47.103698+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "1245a89d943eb0ab608cf0410ee2ae10d804c5089477482f83018c2784219875",
+      "publication_source_sha256": "4187396cc742d9bda58bffe6cac25c92a656158cd542a75f82a441cd1d918ab0",
+      "kernel_metadata": {
+        "id": "aadigupta7686/bend-the-knee-to-dinov3-ensembled",
+        "id_no": 130649063,
+        "title": "Bend the Knee to DinoV3 (ensembled)",
+        "code_file": "bend-the-knee-to-dinov3-ensembled.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "bend-the-knee-to-dinov3-ensembled.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__bend-the-knee-to-dinov3-ensembled"
+    },
+    {
+      "notebook_ref": "aadigupta7686/bend-the-knee-to-dinov3-ensembled-3e1413",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/bend-the-knee-to-dinov3-ensembled-3e1413",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343313109"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:47.104792+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "7f2ac9468177a687f18f8f73d48b41eccd8e0acac888a0f7c2d0e5e0115c6494",
+      "publication_source_sha256": "4c2e18d8152df46bbb3969b5b3057b947ea33dbff3f0279219a15c4c3d1a75b2",
+      "kernel_metadata": {
+        "id": "aadigupta7686/bend-the-knee-to-dinov3-ensembled-3e1413",
+        "id_no": 131191782,
+        "title": "Bend the Knee to DinoV3 (ensembled) 3e1413",
+        "code_file": "bend-the-knee-to-dinov3-ensembled-3e1413.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "bend-the-knee-to-dinov3-ensembled-3e1413.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__bend-the-knee-to-dinov3-ensembled-3e1413"
+    },
+    {
+      "notebook_ref": "aadigupta7686/exp-2",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/exp-2",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "341398138"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:47.107945+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "b26c6f51a34c1ac6cb000bfb8c4022d6b55bf4b3d5a35805c9a91abee8a5b698",
+      "publication_source_sha256": "dda08c0a7aa0638b8509c4bef88f939ff5a97e2256b77e139ed25c7d216d8c9d",
+      "kernel_metadata": {
+        "id": "aadigupta7686/exp-2",
+        "id_no": 130291132,
+        "title": "exp-2",
+        "code_file": "exp-2.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "exp-2.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__exp-2"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-base",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-base",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "345150552",
+        "345211601"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:52.313360+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-base",
+        "id_no": 132092283,
+        "title": "rsna-base",
+        "code_file": "rsna-base.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-widedense",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "2f097ffe4e4055b7460e49435d913ca21bdaca3cc8a5090204fa4d9aa15c46dd",
+      "publication_source_sha256": "d5788385adf58d63fe97f30fa62f15e2d96b7ac6c44c84403a38e7a1e1024cd5",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-base.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-base"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-abnormality",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-abnormality",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343017226"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:52.332563+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-abnormality",
+        "id_no": 131052356,
+        "title": "RSNA Knee Abnormality",
+        "code_file": "rsna-knee-abnormality.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "8936191cc5fb64fde4381466938e7af033d101c4600bbf82f2f57cff9d473138",
+      "publication_source_sha256": "adb9acc3f42e1e207724bae5dc27f01221e9082aa43ee93a2bb42f1f3c2803cf",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-abnormality.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-abnormality"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-d4-blend",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-d4-blend",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "354883333"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:52.462119+00:00",
+      "status": "unavailable",
+      "error_type": "HTTPError",
+      "error_summary": "403 Client Error: Forbidden for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernel"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-dinosaur-the-last",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-dinosaur-the-last",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357459122"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:52.559588+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-dinosaur-the-last",
+        "id_no": 138223790,
+        "title": "RSNA Knee | DINOsaur the last? \ud83e\udd96",
+        "code_file": "rsna-knee-dinosaur-the-last.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-v1",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "336eb9b2553225b4d6e91b3e3c8fd970e25616141a1767dcd17b3cf3ef29273f",
+      "publication_source_sha256": "30a6d59a16b2a3a504d14c932f4526105d397debf5a99735b329c6078094b418",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-dinosaur-the-last.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-dinosaur-the-last"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-dinosaur-v5",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-dinosaur-v5",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "356972436"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:58.284548+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-dinosaur-v5",
+        "id_no": 137989311,
+        "title": "RSNA Knee | DINOsaur V5? \ud83e\udd96 ",
+        "code_file": "rsna-knee-dinosaur-v5.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "nartaa/rsna-knee-publication-swa-weights-20261007"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "db3a0c70788757a8bb5d4f5da2342a0203267529c8ace30d4b0add6daeb7b141",
+      "publication_source_sha256": "8bb5e844da6fc17eca606277b7b833b104fb21f594266530ea3263c05926734d",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-dinosaur-v5.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-dinosaur-v5"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-dinosaur-v5-instance-first-ordering",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-dinosaur-v5-instance-first-ordering",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343793079",
+        "343888288"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:58.974951+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-dinosaur-v5-instance-first-ordering",
+        "id_no": 131427738,
+        "title": "RSNA Knee | DINOsaur V5 \u2014 instance-first ordering ",
+        "code_file": "rsna-knee-dinosaur-v5-instance-first-ordering.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "2a46272e4dbf374e732e0554fa0e09ff9f8791a92cd845d683f2d7c2f22db7aa",
+      "publication_source_sha256": "2472d2f8b65b605adcd0b29d8b4afcf961d58c7609744f53f99d82a1483cb427",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-dinosaur-v5-instance-first-ordering.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-dinosaur-v5-instance-first-ordering"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-frontier-v46",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-frontier-v46",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "342720431"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:58.974068+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-frontier-v46",
+        "id_no": 130914024,
+        "title": "RSNA Knee frontier v46",
+        "code_file": "rsna-knee-frontier-v46.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1",
+          "metaresearch/dinov2/PyTorch/base/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "3fa3f3fce45966a875bbd01191b9b325a1b1bd0e1791b500bc5ac04d6fd13f8a",
+      "publication_source_sha256": "ec5feda298f0db09aa266afe57802e7ec34dafdfbde138c871a260b935df7cf5",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-frontier-v46.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-frontier-v46"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-phase1-fork-speedy-raptors-recipe",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-phase1-fork-speedy-raptors-recipe",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "354353744",
+        "354353789"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:05:59.122666+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-phase1-fork-speedy-raptors-recipe",
+        "id_no": 136636667,
+        "title": "RSNA Knee Phase1 Fork (Speedy Raptors recipe)",
+        "code_file": "rsna-knee-phase1-fork-speedy-raptors-recipe.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-finespacing",
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "dreaddevelopment/raptor-knee-widedense",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "mattiaangeli/rsna-knee-coatnet-d4-depthzone-swa3-b2",
+          "mattiaangeli/rsna-knee-coatnet-global96-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "4e0b5381fde68a07442b4d459198a846b306d3dfd05b3099a25559074ea713b0",
+      "publication_source_sha256": "988b0e21c88d3389d97f7df041c0ca93c758f0a90bf3dc90473ad2880205213d",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-phase1-fork-speedy-raptors-recipe.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-phase1-fork-speedy-raptors-recipe"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-stack-2-5d-convnext-mil-lb-0-944",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-stack-2-5d-convnext-mil-lb-0-944",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "355749322"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:03.590502+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-stack-2-5d-convnext-mil-lb-0-944",
+        "id_no": 137323512,
+        "title": "RSNA Knee | Stack + 2.5D ConvNeXt MIL | LB 0.944",
+        "code_file": "rsna-knee-stack-2-5d-convnext-mil-lb-0-944.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "mattiaangeli/rsna-knee-coatnet-d4-depthzone-swa3-b2",
+          "mattiaangeli/rsna-knee-coatnet-global96-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "a02767b28eaaa5eeeabf170f7f43be20b1f0c524b461c589b3cf8060266a082e",
+      "publication_source_sha256": "dd78176765cb2f15796c2eef62ae8e34b422be3da86d31a05854e10dccb28c30",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-stack-2-5d-convnext-mil-lb-0-944.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-stack-2-5d-convnext-mil-lb-0-944"
+    },
+    {
+      "notebook_ref": "aadigupta7686/rsna-knee-v40-dinov3-e10-hybrid",
+      "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-v40-dinov3-e10-hybrid",
+      "original_author_handle": "aadigupta7686",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "342350644"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:04.021917+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "aadigupta7686/rsna-knee-v40-dinov3-e10-hybrid",
+        "id_no": 130740620,
+        "title": "RSNA Knee V40 DINOv3 E10 Hybrid",
+        "code_file": "rsna-knee-v40-dinov3-e10-hybrid.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "c2d3d9abf7fc074e937e62f3ace1bcfc239b71555ec22e59e60e1311dca1bbc6",
+      "publication_source_sha256": "c58e2bdfbf97e93524d4c53c2b231c204317bee1f0a380ec7d5c791bb233a8d8",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-v40-dinov3-e10-hybrid.ipynb"
+      ],
+      "publication_path": "notebooks/history/aadigupta7686__rsna-knee-v40-dinov3-e10-hybrid"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "342457247"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:04.043859+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee",
+        "id_no": 130787176,
+        "title": "RSNA Knee",
+        "code_file": "rsna-knee.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "flight0234/rsna-knee-hybrid-report-labels",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/large/1",
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "33f5c6dfc524834ab0b89f3deb099b30771ae57639d43fdaaf2eb109c170f2e1",
+      "publication_source_sha256": "3628bccff05523d9589bcafb653e62a6f52864953abd40b12a39dad5a4fc9465",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-a1-train-cache-labels",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-a1-train-cache-labels",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:04.071202+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-a1-train-cache-labels",
+        "id_no": 138063602,
+        "title": "RSNA Knee A1 Train Cache Labels",
+        "code_file": "rsna-knee-a1-train-cache-labels.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": false,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "karttikjangid05/rsna-knee-public-llm-label-sets-compared"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+        "machine_shape": "None"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "bee860f888d5c5a4940df0950a695bc48dff7b22220d4b45cf3277c47f8479e9",
+      "publication_source_sha256": "e789ac4d3ff0dbff7e4dd53854012c2e7eddfa8830595c00be7cf026bb4c4d01",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-a1-train-cache-labels.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-a1-train-cache-labels"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-a2-teacher-train-preds",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-a2-teacher-train-preds",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:09.073688+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-a2-teacher-train-preds",
+        "id_no": 138063616,
+        "title": "RSNA Knee A2 Teacher Train Preds",
+        "code_file": "rsna-knee-a2-teacher-train-preds.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "nartaa/rsna-knee-publication-swa-weights-20261007"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "fbef077ced02ee1e62a950f0a5fab626b2b274f96e5171918b67c387a973b098",
+      "publication_source_sha256": "92d3d336f301dac48842b53ca62a24c3af82829925c5ef6862b2dfe3c415c2a0",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-a2-teacher-train-preds.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-a2-teacher-train-preds"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-b-student-f0",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-b-student-f0",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:09.281855+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-b-student-f0",
+        "id_no": 138123791,
+        "title": "RSNA Knee B Student F0",
+        "code_file": "rsna-knee-b-student-f0.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": true,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-a1-train-cache-labels",
+          "gwey1025/rsna-knee-a2-teacher-train-preds"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "9027e7650f25c3260c96e14f2cb3c1132e573b94c5b31c23f2370030b2860106",
+      "publication_source_sha256": "a8402c393f069a13d72556fc8aa3245fbce84903ca12daa958b0495a33637843",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-b-student-f0.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-b-student-f0"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:09.355591+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+        "id_no": 138189769,
+        "title": "RSNA Knee B Student F01234 r2 convnext",
+        "code_file": "rsna-knee-b-student-f01234-r2-convnext.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": true,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-a1-train-cache-labels",
+          "gwey1025/rsna-knee-a2-teacher-train-preds",
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "9edb72666ecadeb88cf4380f135b051fe46be6d2aa3b6ab4a45b3f67689622f9",
+      "publication_source_sha256": "f34b1c61a3aa19426ac4e884420116ac161513ff9b94b42191e1e9915e4c783d",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-b-student-f01234-r2-convnext.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-b-student-f01234-r2-convnext"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-b-student-f01234-r2-effv2",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-b-student-f01234-r2-effv2",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:09.649794+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-b-student-f01234-r2-effv2",
+        "id_no": 138189774,
+        "title": "RSNA Knee B Student F01234 r2 effv2",
+        "code_file": "rsna-knee-b-student-f01234-r2-effv2.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": true,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-a1-train-cache-labels",
+          "gwey1025/rsna-knee-a2-teacher-train-preds",
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "e38612e49e24e4777971d3ef6a2e031021306c7b27bd752c00c17fc4f2df696e",
+      "publication_source_sha256": "617e1783ee0faa510eaad9ce13c18e94a9b0b792a3138820047155ec8d0fd89a",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-b-student-f01234-r2-effv2.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-b-student-f01234-r2-effv2"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-b-student-f1234",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-b-student-f1234",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:17.072835+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-b-student-f1234",
+        "id_no": 138146373,
+        "title": "RSNA Knee B Student F1234",
+        "code_file": "rsna-knee-b-student-f1234.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": true,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-a1-train-cache-labels",
+          "gwey1025/rsna-knee-a2-teacher-train-preds"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "bfd848256fedfd1dcce4c5aac2a291eddc2a7224008ba071dfbb92f59ef035e4",
+      "publication_source_sha256": "ddec8340b0b06d66cc0f14f779077aecf083feebcac78fc66528cc1aba125073",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-b-student-f1234.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-b-student-f1234"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-c-v20-student-w20",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-c-v20-student-w20",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357267665"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:17.119309+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-c-v20-student-w20",
+        "id_no": 138135395,
+        "title": "Rsna Knee C V20 Student W20",
+        "code_file": "rsna-knee-c-v20-student-w20.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "nartaa/rsna-knee-publication-swa-weights-20261007"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "d3773f2361201dcf9bafbfe71a353e976122d3c0ba355b9d84c829d6a42d73a4",
+      "publication_source_sha256": "824b56f05ad2a9cde8cd8d62085ccf95ceb6646412e9dfdadb1afe665d0d784c",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-c-v20-student-w20.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-c-v20-student-w20"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-c-v20-student-w35",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-c-v20-student-w35",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357267696"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:17.162343+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-c-v20-student-w35",
+        "id_no": 138135408,
+        "title": "Rsna Knee C V20 Student W35",
+        "code_file": "rsna-knee-c-v20-student-w35.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "nartaa/rsna-knee-publication-swa-weights-20261007"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "3c72ae0e6a7ee05689ebe36ddb3c44766354555dcdf9cb02336a4c8cc511e3f8",
+      "publication_source_sha256": "7fbd0d014c22e90cfacf35a15ecbe3e8469e2657b7395bbe15222dba74f7294a",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-c-v20-student-w35.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-c-v20-student-w35"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-c-v20-student5f-w40",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-c-v20-student5f-w40",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357388990"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:17.342662+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-c-v20-student5f-w40",
+        "id_no": 138189762,
+        "title": "Rsna Knee C V20 Student5F W40",
+        "code_file": "rsna-knee-c-v20-student5f-w40.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "nartaa/rsna-knee-publication-swa-weights-20261007"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "2a1e89ac1ae854dc661cf3970e60a514048ac59a2db72ef844369dfd293df240",
+      "publication_source_sha256": "a0d5b063acc9f0742a0687c4854b49b3315167f41e5440ec9de9358e7b3c3680",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-c-v20-student5f-w40.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-c-v20-student5f-w40"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-d954-students15-perfinding",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-d954-students15-perfinding",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357755000"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:22.390118+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-d954-students15-perfinding",
+        "id_no": 138358808,
+        "title": "Rsna Knee D954 Students15 Perfinding",
+        "code_file": "rsna-knee-d954-students15-perfinding.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-v1",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234",
+          "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+          "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "8109cb006a382f2b43bc27e230fdf34e8c4a91c8d70501082720a3a62769eaa3",
+      "publication_source_sha256": "f6fb526466220a29bd6492196ffda56701bb3386111cfd161b1e4dc639e92ec7",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-d954-students15-perfinding.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-d954-students15-perfinding"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-d954-students15-w25",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-d954-students15-w25",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357721492"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:22.533167+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-d954-students15-w25",
+        "id_no": 138355272,
+        "title": "Rsna Knee D954 Students15 W25",
+        "code_file": "rsna-knee-d954-students15-w25.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-v1",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234",
+          "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+          "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "7371dd929cde400908a22729eff3d50dfa11b95dd80f1536bfcd5503c31edc74",
+      "publication_source_sha256": "3380a8ce6a2720f43773ab7fc49ea7b0bdd3ac4591e1e7dda6a2b34e57e10bf0",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-d954-students15-w25.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-d954-students15-w25"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-d954-students15-w40",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-d954-students15-w40",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357721536"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:22.634727+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-d954-students15-w40",
+        "id_no": 138355292,
+        "title": "Rsna Knee D954 Students15 W40",
+        "code_file": "rsna-knee-d954-students15-w40.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-v1",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234",
+          "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+          "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "975fb1f01d11cc03533e96ceb90f9e5ae3ebe7951aca8b4015d8217518b35f78",
+      "publication_source_sha256": "60803150b879c7d083c4dd5a3bfdc8106dadf11b0d973f30c3314efc94d02f10",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-d954-students15-w40.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-d954-students15-w40"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-h957-reader",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-h957-reader",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357963167"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:22.681666+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-h957-reader",
+        "id_no": 138478725,
+        "title": "Rsna Knee H957 Reader",
+        "code_file": "rsna-knee-h957-reader.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-r7cnxfsss",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "3f61a703ce4ea61b8e2a44fe86d58f787d944854864a4ef0881dae89a17361eb",
+      "publication_source_sha256": "c3cbb6874c7a5a6d5dbbb08f6942f03fe87b0e84861e859426fd7cd433ab884e",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-h957-reader.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-h957-reader"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-h957-reader-students10",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-h957-reader-students10",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357968366"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:27.782082+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-h957-reader-students10",
+        "id_no": 138478753,
+        "title": "Rsna Knee H957 Reader Students10",
+        "code_file": "rsna-knee-h957-reader-students10.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-r7cnxfsss",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234",
+          "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+          "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "67958198cb38223580767d35ad82ce187cffaeeea97ed49ca2fdce33d7d37d9e",
+      "publication_source_sha256": "bbb9e6ac33eec952f7d82d29de816e40ab224173f1e76d73b8b089c7eac0d8b8",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-h957-reader-students10.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-h957-reader-students10"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-h957-students12",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-h957-students12",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357965468"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:27.812518+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-h957-students12",
+        "id_no": 138478740,
+        "title": "Rsna Knee H957 Students12",
+        "code_file": "rsna-knee-h957-students12.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-r7cnxfsss",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234",
+          "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+          "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "8dcd200663fb6a8db614986cddc6859e3119afe25dc8153eb2c9caeac76fc29e",
+      "publication_source_sha256": "e1f8492a584a98d66ba113fcb24fd6b93f826decb4786fa493d8558681b26d21",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-h957-students12.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-h957-students12"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-phase1-fork-speedy-raptors-recipe",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-phase1-fork-speedy-raptors-recipe",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "352331874"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:27.891266+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-phase1-fork-speedy-raptors-recipe",
+        "id_no": 135627482,
+        "title": "RSNA Knee Phase1 Fork (Speedy Raptors recipe)",
+        "code_file": "rsna-knee-phase1-fork-speedy-raptors-recipe.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": false,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "mattiaangeli/rsna-knee-coatnet-d4-depthzone-swa3-b2",
+          "mattiaangeli/rsna-knee-coatnet-global96-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "2fc5a4206d76c13a2ef79a3943a787f13713f873443b535b8471eb3141dc9489",
+      "publication_source_sha256": "80a4464b40893ae492293989d7dc60a309f10eddd9cc07dcfe0290049f7a9a24",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-phase1-fork-speedy-raptors-recipe.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-phase1-fork-speedy-raptors-recipe"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-v20-synovitis-fork",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-v20-synovitis-fork",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357114664"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:27.905974+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-v20-synovitis-fork",
+        "id_no": 138058115,
+        "title": "RSNA Knee V20 Synovitis Fork",
+        "code_file": "rsna-knee-v20-synovitis-fork.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "nartaa/rsna-knee-publication-swa-weights-20261007"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "0393a28f3d31865d0795ceafa14f0499c6939133dbd611804dd4877105bd7b4e",
+      "publication_source_sha256": "2db1b2a2123f17f28ab65487d8b146b87636ac3923b0e1e8c6d54a2d2b8df478",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-v20-synovitis-fork.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-v20-synovitis-fork"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-v224-r7-reader",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-v224-r7-reader",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "358271658"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:33.115941+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-v224-r7-reader",
+        "id_no": 138638801,
+        "title": "Rsna Knee V224 R7 Reader",
+        "code_file": "rsna-knee-v224-r7-reader.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-r7cnxfsss",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "88a469a79ca1fa3dcaf3fd75e9d3492e2e1ec0f941064a6004ea688654ba17f4",
+      "publication_source_sha256": "80be9d8cd035ad3d642264bd68d53ae7c5afdf582fc57135c5a21831c51510a2",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-v224-r7-reader.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-v224-r7-reader"
+    },
+    {
+      "notebook_ref": "gwey1025/rsna-knee-v224-r7-reader-students10",
+      "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-v224-r7-reader-students10",
+      "original_author_handle": "gwey1025",
+      "author_display_name": "wenyuan Guo",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "358274276"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:33.211548+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "gwey1025/rsna-knee-v224-r7-reader-students10",
+        "id_no": 138640006,
+        "title": "Rsna Knee V224 R7 Reader Students10",
+        "code_file": "rsna-knee-v224-r7-reader-students10.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+          "heliosli/rsna-knee-compact-r7cnxfsss",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [
+          "gwey1025/rsna-knee-b-student-f0",
+          "gwey1025/rsna-knee-b-student-f1234",
+          "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+          "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "3787d80b78aca86af233d9c305da0ee217983e98cd8d3645e08aa3e342eebdcf",
+      "publication_source_sha256": "8a6a27198ad3837c83ded7c49935b18e76554f53e8a50a9cd49d49d391888451",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-v224-r7-reader-students10.ipynb"
+      ],
+      "publication_path": "notebooks/history/gwey1025__rsna-knee-v224-r7-reader-students10"
+    },
+    {
+      "notebook_ref": "koushikrudra/notebookae581ca5ed",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/notebookae581ca5ed",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "348239527"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:33.253519+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/notebookae581ca5ed",
+        "id_no": 133556683,
+        "title": "notebookae581ca5ed",
+        "code_file": "notebookae581ca5ed.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": true,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "b2cb09d055d58509d7e0d89cb70f6fb5b8cb59472266efd59e7060a47d540b7f",
+      "publication_source_sha256": "9ca83e1384b3afc472320f2dcf47d0da6aa0be3d3986fcb87d435ec830dc8d5b",
+      "publication_files": [
+        "kernel-metadata.json",
+        "notebookae581ca5ed.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__notebookae581ca5ed"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "351730698"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:33.362996+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee",
+        "id_no": 135315050,
+        "title": "RSNA Knee",
+        "code_file": "rsna-knee.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "mattiaangeli/rsna-knee-coatnet-d4-depthzone-swa3-b2",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "f9d3bf1df01006646019aabf58d3267569b3e4ac41cdc8e43712f3b466c579ba",
+      "publication_source_sha256": "09fa8faa1824954d28aabd21e2aa95c0c83ec69b711d11e517f74d1d37ebeb1a",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-baseline-v1-fracture-tta-pool-probe",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-baseline-v1-fracture-tta-pool-probe",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "341137631"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:38.511799+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-baseline-v1-fracture-tta-pool-probe",
+        "id_no": 130160694,
+        "title": "rsna-knee-baseline-v1-fracture-tta-pool-probe",
+        "code_file": "rsna-knee-baseline-v1-fracture-tta-pool-probe.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "pilkwang/rsna-knee-llm-labels",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "648d82001748d3788daa9f1fd4f9b05b888ddd046e51905bff6972472d66ce42",
+      "publication_source_sha256": "2124f32d10bc13663a9652435742e0155ec4b9114c2006203e69f84cd50a012b",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-baseline-v1-fracture-tta-pool-probe.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-baseline-v1-fracture-tta-pool-probe"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-dino-v3-fork",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-dino-v3-fork",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343511521"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:38.543612+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-dino-v3-fork",
+        "id_no": 131287437,
+        "title": "rsna-knee-dino-v3-fork",
+        "code_file": "rsna-knee-dino-v3-fork.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1",
+          "metaresearch/dinov2/PyTorch/base/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "b904d89e90ba546e79382b0dbb71ce6c5da5cf4841522fd4810eedbc21e62cbc",
+      "publication_source_sha256": "53bc6809db4b6e0b70f3ae840eadf050e0fac655c000b734fb31444c1ca3aa89",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-dino-v3-fork.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-dino-v3-fork"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-dino-v3-jitter",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-dino-v3-jitter",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343513347"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:38.780707+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-dino-v3-jitter",
+        "id_no": 131288340,
+        "title": "rsna-knee-dino-v3-jitter",
+        "code_file": "rsna-knee-dino-v3-jitter.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "57291cd46c602be227dcf241512a28aeaa56299eeac9ce4c9e64c23188b982d7",
+      "publication_source_sha256": "6b94c2ecd548f422e8194ca9934da4e7098c2c4e700904501cf99cd54cbfe208",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-dino-v3-jitter.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-dino-v3-jitter"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-kunal-fork",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-kunal-fork",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343710422"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:38.851497+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-kunal-fork",
+        "id_no": 131388210,
+        "title": "rsna-knee-kunal-fork",
+        "code_file": "rsna-knee-kunal-fork.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1",
+          "metaresearch/dinov2/PyTorch/base/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "d3a15397b55117ebfcdf6900af14c445c734f6618d4809200055b0b3761d574a",
+      "publication_source_sha256": "d97d195f5d005434e363781bc6356ea7a38b704c2473987307a7303a3c60d34c",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-kunal-fork.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-kunal-fork"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-pool-focal7",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-pool-focal7",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "341193899"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:43.992863+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-pool-focal7",
+        "id_no": 130189807,
+        "title": "rsna-knee-pool-focal7",
+        "code_file": "rsna-knee-pool-focal7.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "pilkwang/rsna-knee-llm-labels",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "bd098c99d615b670a8f573a46e2f6eff70b026b9e597a618ed17f8016519df32",
+      "publication_source_sha256": "c5e48f491ef65537872239561032881290a8a6c4863f520a2aacb5267fe645e5",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-pool-focal7.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-pool-focal7"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-pool-frontier",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-pool-frontier",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "341997874"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:44.172399+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-pool-frontier",
+        "id_no": 130572762,
+        "title": "rsna-knee-pool-frontier",
+        "code_file": "rsna-knee-pool-frontier.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "pilkwang/rsna-knee-llm-labels",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "d3fdd706b5025e6d8966eb8f5a9a8c258d5084d8af7a242d681ccef4380e3277",
+      "publication_source_sha256": "33b100a012c77bbd1094475878bf1152f47e5b4c8da4ef840db860731b123fdc",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-pool-frontier.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-pool-frontier"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-takecare-fork",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-takecare-fork",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343711152"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:44.263368+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-takecare-fork",
+        "id_no": 131388202,
+        "title": "rsna-knee-takecare-fork",
+        "code_file": "rsna-knee-takecare-fork.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu",
+          "intermediate",
+          "ensembling"
+        ],
+        "dataset_sources": [
+          "anhadmahajan06/images-for-competition-notebook",
+          "mattiaangeli/knee-mri-fold-weights",
+          "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights",
+          "royceplayz/rsna-medicalnet-resnet50-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1",
+          "metaresearch/dinov2/PyTorch/base/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "682f2b43acf2189e885b3a22615ef60c52e09f074cbd624e5e33e6deac6032f1",
+      "publication_source_sha256": "fb0b2558005afb984bc99fd9865038684f70373de0f5be05641ea64d46f5d9f7",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-takecare-fork.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-takecare-fork"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-tony-fork",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-tony-fork",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343708360"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:44.295691+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-tony-fork",
+        "id_no": 131387328,
+        "title": "rsna-knee-tony-fork",
+        "code_file": "rsna-knee-tony-fork.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "47510046fc32377cb0c297aa7820c2672b276608f33bc71e64dcc133fedbc2d4",
+      "publication_source_sha256": "e9a256b769efb4ab3a141499e9d7f8a52f71212d89907616af537167956126a8",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-tony-fork.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-tony-fork"
+    },
+    {
+      "notebook_ref": "koushikrudra/rsna-knee-v48-budget15",
+      "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-v48-budget15",
+      "original_author_handle": "koushikrudra",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "343011163"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:49.370962+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "koushikrudra/rsna-knee-v48-budget15",
+        "id_no": 131049799,
+        "title": "rsna-knee-v48-budget15",
+        "code_file": "rsna-knee-v48-budget15.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "mattiaangeli/knee-mri-fold-weights",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "pilkwang/rsna-knee-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1",
+          "metaresearch/dinov2/PyTorch/base/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "c54ddaa651c05d62cf9dabd45e35812691c43e2916becdd2a0eec2b2dd4263a4",
+      "publication_source_sha256": "7469ed2f70f4080089713a147f95d1802f55b9dc133fe84c05a8fa6dab27b71a",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-v48-budget15.ipynb"
+      ],
+      "publication_path": "notebooks/history/koushikrudra__rsna-knee-v48-budget15"
+    },
+    {
+      "notebook_ref": "uradkr/bend-the-knee-to-the-dinosaurs",
+      "source_url": "https://www.kaggle.com/code/uradkr/bend-the-knee-to-the-dinosaurs",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "348051451"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:49.514836+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "346c29c8392ef9fcf4f56acabcd50f6908130cd2f64bc17aebc763ed6ac3ce9e",
+      "publication_source_sha256": "48b9aabad76a595b340e2d2ff573e5fff430713b352d5aa0fcd072fa6435f11a",
+      "kernel_metadata": {
+        "id": "uradkr/bend-the-knee-to-the-dinosaurs",
+        "id_no": 133471705,
+        "title": "Bend the Knee to the Dinosaurs ",
+        "code_file": "bend-the-knee-to-the-dinosaurs.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "bend-the-knee-to-the-dinosaurs.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/uradkr__bend-the-knee-to-the-dinosaurs"
+    },
+    {
+      "notebook_ref": "uradkr/gp-a-frontier957",
+      "source_url": "https://www.kaggle.com/code/uradkr/gp-a-frontier957",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357879978"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:49.531893+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "cb2a0f57962ca9b6668661e34461aad772ed9ed10d576d32772e7c2898f2e315",
+      "publication_source_sha256": "6cd138e67dc521db9a933e540e14ac658e97465b539468a1138d12b7f83d284a",
+      "kernel_metadata": {
+        "id": "uradkr/gp-a-frontier957",
+        "id_no": 138439057,
+        "title": "gp-a-frontier957",
+        "code_file": "gp-a-frontier957.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "heliosli/rsna-knee-compact-r7cnxfsss",
+          "nartaa/rsna-knee-publication-swa-weights-20261007",
+          "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "gp-a-frontier957.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/uradkr__gp-a-frontier957"
+    },
+    {
+      "notebook_ref": "uradkr/gp-a-superblend",
+      "source_url": "https://www.kaggle.com/code/uradkr/gp-a-superblend",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "357951241"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:49.623739+00:00",
+      "status": "recovered",
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "58063a0af64677ba49fd04689b00b82f3297f37088f335b059fabec0e7fe059b",
+      "publication_source_sha256": "72cd294a47f51e10e097422e4a59d7935eed5fa0a8da7f7bbd0633b7a369b662",
+      "kernel_metadata": {
+        "id": "uradkr/gp-a-superblend",
+        "id_no": 138451213,
+        "title": "gp-a-superblend",
+        "code_file": "gp-a-superblend.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "publication_files": [
+        "gp-a-superblend.ipynb",
+        "kernel-metadata.json"
+      ],
+      "publication_path": "notebooks/history/uradkr__gp-a-superblend"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-astra-public-anhad-probit",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-astra-public-anhad-probit",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "347620078"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:54.688737+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-astra-public-anhad-probit",
+        "id_no": 133287846,
+        "title": "RSNA Astra Public Anhad Probit",
+        "code_file": "rsna-astra-public-anhad-probit.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu",
+          "intermediate",
+          "ensembling"
+        ],
+        "dataset_sources": [
+          "anhadmahajan06/images-for-competition-notebook",
+          "dreaddevelopment/raptor-knee-maxspan",
+          "mattiaangeli/knee-mri-fold-weights",
+          "dreaddevelopment/raptor-knee-widedense",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "stevenleehans/rsna-knee-llm-report-labels",
+          "lixin73/rsna-knee-llm-report-labels-sol56",
+          "pilkwang/rsna-knee-llm-labels",
+          "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights",
+          "royceplayz/rsna-medicalnet-resnet50-weights",
+          "tonylica/rsna2026-models"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "52e9aa882d246b81ee6c9350999f925df7633f46c2e63c7a704731328b065871",
+      "publication_source_sha256": "d4100de919cbc5bb0897e7b3306728014f796ca5d56bc36d2029cfa4fe8e49e3",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-astra-public-anhad-probit.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-astra-public-anhad-probit"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-astra-public-nishant-v55",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-astra-public-nishant-v55",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "347620752"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:54.850560+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-astra-public-nishant-v55",
+        "id_no": 133288155,
+        "title": "RSNA Astra Public Nishant V55",
+        "code_file": "rsna-astra-public-nishant-v55.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "mattiaangeli/knee-mri-fold-weights",
+          "dreaddevelopment/raptor-knee-widedense",
+          "dreaddevelopment/raptor-knee-arms",
+          "dreaddevelopment/raptor-knee-arms-x",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "17835902e17093f83c8133a62295bc7e60f8de8bafed31e9bb9c291271f7e87e",
+      "publication_source_sha256": "503738e8357766966acbf186bf3902615459ce3de88bd3bf79cbad142837e9ff",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-astra-public-nishant-v55.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-astra-public-nishant-v55"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-astra-public-renta-0937-exact",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-astra-public-renta-0937-exact",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "347618307"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:55.012600+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-astra-public-renta-0937-exact",
+        "id_no": 133287171,
+        "title": "RSNA Astra Public Renta 0937 Exact",
+        "code_file": "rsna-astra-public-renta-0937-exact.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "renta0426/rsna-knee-public0033-meniscus-bag-v1"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "2797681b5a657e45c9e1e2626cf42f43750f190beb50646f78bba33dfc0181ba",
+      "publication_source_sha256": "dd2861c00250ccca4e8b114f40799cabacb146f42999f15c660bc0e108b82482",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-astra-public-renta-0937-exact.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-astra-public-renta-0937-exact"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-astra-public-renta-v6-outer",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-astra-public-renta-v6-outer",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "347619061"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:06:55.036479+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-astra-public-renta-v6-outer",
+        "id_no": 133287195,
+        "title": "RSNA Astra Public Renta + V6 Outer",
+        "code_file": "rsna-astra-public-renta-v6-outer.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "renta0426/rsna-knee-public0033-meniscus-bag-v1"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "c0bd473c1bd13dd7ab4b0a9d480fae57f0c4f5dc270c5182376a2cae5165c6bd",
+      "publication_source_sha256": "579ba1f0f9202ac041e2b43611015bd5efcf4440488fe11d233a1ea14102f8f7",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-astra-public-renta-v6-outer.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-astra-public-renta-v6-outer"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-astra-renta-two-target-consensus",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-astra-renta-two-target-consensus",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "347622272"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:07:00.255325+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-astra-renta-two-target-consensus",
+        "id_no": 133288768,
+        "title": "RSNA Astra Renta Two Target Consensus",
+        "code_file": "rsna-astra-renta-two-target-consensus.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+          "renta0426/rsna-knee-public0033-meniscus-bag-v1"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "8845d4a79d3004af73c9668613845ccf28ddf29fc126e402e53a05f3341badb9",
+      "publication_source_sha256": "190bd7b6dbe44040246b10e582c8d2ce2d3055c7f344351d0a908330201bd7f3",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-astra-renta-two-target-consensus.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-astra-renta-two-target-consensus"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-base",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-base",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "345764324",
+        "346015599",
+        "346034274"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:07:00.335897+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-base",
+        "id_no": 132420640,
+        "title": "rsna-base",
+        "code_file": "rsna-base.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-widedense",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "56b4c90121e125289ba5d62819837aba32bb568e61090e46d650f0a36530161c",
+      "publication_source_sha256": "bdb6b35f0bf9473ea8e0521b41d0275fb44cde6d9c4073fdbbc5fa96177107f2",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-base.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-base"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-knee-hybrid-raptor-meniscus-specialist",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-knee-hybrid-raptor-meniscus-specialist",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "348828074"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:07:00.470269+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-knee-hybrid-raptor-meniscus-specialist",
+        "id_no": 133857630,
+        "title": "RSNA Knee | Hybrid Raptor + Meniscus Specialist",
+        "code_file": "rsna-knee-hybrid-raptor-meniscus-specialist.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "f7c351b8976a75e7f7227bd78ab5f2cbb00f978221481a266e5f7baf5ec212a4",
+      "publication_source_sha256": "c7c5610625980469d53f059defeef4c39bf8681a9ae3d574c4248a56857ab0e6",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-knee-hybrid-raptor-meniscus-specialist.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-knee-hybrid-raptor-meniscus-specialist"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-notebook",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-notebook",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "348042783",
+        "348043780",
+        "348044999"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:07:01.017934+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-notebook",
+        "id_no": 133467859,
+        "title": "RSNA Notebook",
+        "code_file": "rsna-notebook.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": true,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-native384",
+          "dreaddevelopment/raptor-knee-native384dense",
+          "mattiaangeli/knee-mri-fold-weights",
+          "mattiaangeli/opencv-python-headless-4120088-x86",
+          "marwanmath/resnet-50-radimagenet-marwan",
+          "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+          "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+          "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+          "pilkwang/rsna-knee-llm-labels",
+          "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+          "pilkwang/rsna-knee-weights"
+        ],
+        "kernel_sources": [
+          "sofiaanjenje/rsna-knee-e11-train",
+          "sofiaanjenje/rsna-knee-e13-train"
+        ],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/base/1",
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "36bbf4b1be1cf274471a6c7b8f11902add6fd3c1a61ffda405abcf3942d0b658",
+      "publication_source_sha256": "0433b89fe6e10394af8a1738cb4a7e1f2468573aa5c9efd9a16fc0f45293acbb",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-notebook.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-notebook"
+    },
+    {
+      "notebook_ref": "uradkr/rsna-rapid-triplex-v1",
+      "source_url": "https://www.kaggle.com/code/uradkr/rsna-rapid-triplex-v1",
+      "original_author_handle": "uradkr",
+      "author_display_name": "",
+      "requested_snapshot": "latest authorized source",
+      "historical_submission_script_version_ids": [
+        "346095752",
+        "346096993",
+        "346097658"
+      ],
+      "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+      "fetched_at_utc": "2026-10-14T20:07:05.608812+00:00",
+      "status": "recovered",
+      "kernel_metadata": {
+        "id": "uradkr/rsna-rapid-triplex-v1",
+        "id_no": 132577333,
+        "title": "RSNA Rapid Triplex V1",
+        "code_file": "rsna-rapid-triplex-v1.ipynb",
+        "language": "python",
+        "kernel_type": "notebook",
+        "is_private": true,
+        "enable_gpu": true,
+        "enable_tpu": false,
+        "enable_internet": false,
+        "keywords": [
+          "gpu"
+        ],
+        "dataset_sources": [
+          "dreaddevelopment/raptor-knee-maxspan",
+          "dreaddevelopment/raptor-knee-widedense",
+          "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+        ],
+        "kernel_sources": [],
+        "competition_sources": [
+          "rsna-knee-abnormality-detection"
+        ],
+        "model_sources": [
+          "metaresearch/dinov2/PyTorch/small/1"
+        ],
+        "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+        "machine_shape": "NvidiaTeslaT4"
+      },
+      "outputs_removed": 0,
+      "nonempty_execution_counts_removed": 0,
+      "attachments_removed": 0,
+      "original_source_sha256": "e09011f1914949a36d0e7bbbff6010fb0d01190bb0c57d5803c2f96f93c3a2a8",
+      "publication_source_sha256": "b84978648a876165c21b0460829fc0761ff4f58a8054a2afa7893438c04e1774",
+      "publication_files": [
+        "kernel-metadata.json",
+        "rsna-rapid-triplex-v1.ipynb"
+      ],
+      "publication_path": "notebooks/history/uradkr__rsna-rapid-triplex-v1"
+    }
+  ]
+}

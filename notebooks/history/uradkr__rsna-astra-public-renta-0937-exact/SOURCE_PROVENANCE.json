@@ -1,0 +1,54 @@
+{
+  "notebook_ref": "uradkr/rsna-astra-public-renta-0937-exact",
+  "source_url": "https://www.kaggle.com/code/uradkr/rsna-astra-public-renta-0937-exact",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "347618307"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:55.012600+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "uradkr/rsna-astra-public-renta-0937-exact",
+    "id_no": 133287171,
+    "title": "RSNA Astra Public Renta 0937 Exact",
+    "code_file": "rsna-astra-public-renta-0937-exact.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-native384",
+      "dreaddevelopment/raptor-knee-native384dense",
+      "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+      "renta0426/rsna-knee-public0033-meniscus-bag-v1"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "2797681b5a657e45c9e1e2626cf42f43750f190beb50646f78bba33dfc0181ba",
+  "publication_source_sha256": "dd2861c00250ccca4e8b114f40799cabacb146f42999f15c660bc0e108b82482",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-astra-public-renta-0937-exact.ipynb"
+  ],
+  "publication_path": "notebooks/history/uradkr__rsna-astra-public-renta-0937-exact"
+}

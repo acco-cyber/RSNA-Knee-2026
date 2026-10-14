@@ -1,0 +1,52 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-c-v20-student5f-w40",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-c-v20-student5f-w40",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357388990"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:17.342662+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-c-v20-student5f-w40",
+    "id_no": 138189762,
+    "title": "Rsna Knee C V20 Student5F W40",
+    "code_file": "rsna-knee-c-v20-student5f-w40.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "nartaa/rsna-knee-publication-swa-weights-20261007"
+    ],
+    "kernel_sources": [
+      "gwey1025/rsna-knee-b-student-f0",
+      "gwey1025/rsna-knee-b-student-f1234"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "2a1e89ac1ae854dc661cf3970e60a514048ac59a2db72ef844369dfd293df240",
+  "publication_source_sha256": "a0d5b063acc9f0742a0687c4854b49b3315167f41e5440ec9de9358e7b3c3680",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-c-v20-student5f-w40.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-c-v20-student5f-w40"
+}

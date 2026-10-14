@@ -1,0 +1,51 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:09.355591+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+    "id_no": 138189769,
+    "title": "RSNA Knee B Student F01234 r2 convnext",
+    "code_file": "rsna-knee-b-student-f01234-r2-convnext.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": true,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+    ],
+    "kernel_sources": [
+      "gwey1025/rsna-knee-a1-train-cache-labels",
+      "gwey1025/rsna-knee-a2-teacher-train-preds",
+      "gwey1025/rsna-knee-b-student-f0",
+      "gwey1025/rsna-knee-b-student-f1234"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "9edb72666ecadeb88cf4380f135b051fe46be6d2aa3b6ab4a45b3f67689622f9",
+  "publication_source_sha256": "f34b1c61a3aa19426ac4e884420116ac161513ff9b94b42191e1e9915e4c783d",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-b-student-f01234-r2-convnext.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-b-student-f01234-r2-convnext"
+}

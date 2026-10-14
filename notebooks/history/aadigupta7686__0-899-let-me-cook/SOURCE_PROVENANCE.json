@@ -1,0 +1,58 @@
+{
+  "notebook_ref": "aadigupta7686/0-899-let-me-cook",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/0-899-let-me-cook",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "341172490",
+    "341177035",
+    "341206502",
+    "341237150",
+    "341369506",
+    "342072460",
+    "342113185"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:47.102084+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "099927c373efd04ef3cbfa8c0a5fae8926ef9038e144e6836c08108fbdcdce8e",
+  "publication_source_sha256": "37204f6f04bbdf0588281b45d3d44c763f2961b98aaf7b76d901aebf959b7656",
+  "kernel_metadata": {
+    "id": "aadigupta7686/0-899-let-me-cook",
+    "id_no": 130178726,
+    "title": "[0.899] Let me Cook",
+    "code_file": "0-899-let-me-cook.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+      "pilkwang/rsna-knee-llm-labels",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "0-899-let-me-cook.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__0-899-let-me-cook"
+}

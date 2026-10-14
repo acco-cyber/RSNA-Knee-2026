@@ -1,0 +1,24 @@
+{
+  "id": "gwey1025/rsna-knee-l2-smoke-20261015",
+  "title": "RSNA Knee L2 Smoke 20261015",
+  "code_file": "l2_convnext_smoke.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "gwey1025/rsna-knee-l2-labels-20261015"
+  ],
+  "kernel_sources": [
+    "gwey1025/rsna-knee-a1-train-cache-labels",
+    "gwey1025/rsna-knee-b-student-f01234-r2-convnext"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+  "machine_shape": "NvidiaTeslaT4"
+}

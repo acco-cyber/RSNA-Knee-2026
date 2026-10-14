@@ -1,0 +1,65 @@
+{
+  "notebook_ref": "koushikrudra/rsna-knee-kunal-fork",
+  "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-kunal-fork",
+  "original_author_handle": "koushikrudra",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "343710422"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:38.851497+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "koushikrudra/rsna-knee-kunal-fork",
+    "id_no": 131388210,
+    "title": "rsna-knee-kunal-fork",
+    "code_file": "rsna-knee-kunal-fork.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "tonylica/rsna-knee-bend-dinov3-0917-repro-assets",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "lixin73/rsna-knee-llm-report-labels-sol56",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1",
+      "metaresearch/dinov2/PyTorch/base/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "d3a15397b55117ebfcdf6900af14c445c734f6618d4809200055b0b3761d574a",
+  "publication_source_sha256": "d97d195f5d005434e363781bc6356ea7a38b704c2473987307a7303a3c60d34c",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-kunal-fork.ipynb"
+  ],
+  "publication_path": "notebooks/history/koushikrudra__rsna-knee-kunal-fork"
+}

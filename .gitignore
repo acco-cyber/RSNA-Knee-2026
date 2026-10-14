@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.private/
+private_data/
+report_batches/
+report_annotations/
+l2_dataset/
+*.pt
+*.safetensors
+*.npz
+*.dcm

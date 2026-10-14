@@ -1,0 +1,51 @@
+{
+  "notebook_ref": "aadigupta7686/rsna-knee-dinosaur-the-last",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-dinosaur-the-last",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357459122"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:52.559588+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "aadigupta7686/rsna-knee-dinosaur-the-last",
+    "id_no": 138223790,
+    "title": "RSNA Knee | DINOsaur the last? \ud83e\udd96",
+    "code_file": "rsna-knee-dinosaur-the-last.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "heliosli/rsna-knee-compact-v1",
+      "nartaa/rsna-knee-publication-swa-weights-20261007",
+      "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "336eb9b2553225b4d6e91b3e3c8fd970e25616141a1767dcd17b3cf3ef29273f",
+  "publication_source_sha256": "30a6d59a16b2a3a504d14c932f4526105d397debf5a99735b329c6078094b418",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-dinosaur-the-last.ipynb"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__rsna-knee-dinosaur-the-last"
+}

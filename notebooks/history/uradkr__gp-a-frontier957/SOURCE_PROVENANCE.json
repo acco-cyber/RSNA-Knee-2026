@@ -1,0 +1,50 @@
+{
+  "notebook_ref": "uradkr/gp-a-frontier957",
+  "source_url": "https://www.kaggle.com/code/uradkr/gp-a-frontier957",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357879978"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:49.531893+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "cb2a0f57962ca9b6668661e34461aad772ed9ed10d576d32772e7c2898f2e315",
+  "publication_source_sha256": "6cd138e67dc521db9a933e540e14ac658e97465b539468a1138d12b7f83d284a",
+  "kernel_metadata": {
+    "id": "uradkr/gp-a-frontier957",
+    "id_no": 138439057,
+    "title": "gp-a-frontier957",
+    "code_file": "gp-a-frontier957.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "heliosli/rsna-knee-compact-r7cnxfsss",
+      "nartaa/rsna-knee-publication-swa-weights-20261007",
+      "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "gp-a-frontier957.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/uradkr__gp-a-frontier957"
+}

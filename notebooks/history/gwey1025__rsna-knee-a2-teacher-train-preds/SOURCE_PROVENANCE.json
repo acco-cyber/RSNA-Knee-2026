@@ -1,0 +1,46 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-a2-teacher-train-preds",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-a2-teacher-train-preds",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:09.073688+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-a2-teacher-train-preds",
+    "id_no": 138063616,
+    "title": "RSNA Knee A2 Teacher Train Preds",
+    "code_file": "rsna-knee-a2-teacher-train-preds.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "nartaa/rsna-knee-publication-swa-weights-20261007"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "fbef077ced02ee1e62a950f0a5fab626b2b274f96e5171918b67c387a973b098",
+  "publication_source_sha256": "92d3d336f301dac48842b53ca62a24c3af82829925c5ef6862b2dfe3c415c2a0",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-a2-teacher-train-preds.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-a2-teacher-train-preds"
+}

@@ -1,0 +1,56 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-h957-students12",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-h957-students12",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357965468"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:27.812518+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-h957-students12",
+    "id_no": 138478740,
+    "title": "Rsna Knee H957 Students12",
+    "code_file": "rsna-knee-h957-students12.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "heliosli/rsna-knee-compact-r7cnxfsss",
+      "nartaa/rsna-knee-publication-swa-weights-20261007",
+      "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+    ],
+    "kernel_sources": [
+      "gwey1025/rsna-knee-b-student-f0",
+      "gwey1025/rsna-knee-b-student-f1234",
+      "gwey1025/rsna-knee-b-student-f01234-r2-convnext",
+      "gwey1025/rsna-knee-b-student-f01234-r2-effv2"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "8dcd200663fb6a8db614986cddc6859e3119afe25dc8153eb2c9caeac76fc29e",
+  "publication_source_sha256": "e1f8492a584a98d66ba113fcb24fd6b93f826decb4786fa493d8558681b26d21",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-h957-students12.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-h957-students12"
+}

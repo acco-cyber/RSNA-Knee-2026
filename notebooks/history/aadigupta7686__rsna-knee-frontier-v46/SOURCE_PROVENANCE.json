@@ -1,0 +1,61 @@
+{
+  "notebook_ref": "aadigupta7686/rsna-knee-frontier-v46",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-frontier-v46",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "342720431"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:58.974068+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "aadigupta7686/rsna-knee-frontier-v46",
+    "id_no": 130914024,
+    "title": "RSNA Knee frontier v46",
+    "code_file": "rsna-knee-frontier-v46.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "lixin73/rsna-knee-llm-report-labels-sol56",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1",
+      "metaresearch/dinov2/PyTorch/base/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "3fa3f3fce45966a875bbd01191b9b325a1b1bd0e1791b500bc5ac04d6fd13f8a",
+  "publication_source_sha256": "ec5feda298f0db09aa266afe57802e7ec34dafdfbde138c871a260b935df7cf5",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-frontier-v46.ipynb"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__rsna-knee-frontier-v46"
+}

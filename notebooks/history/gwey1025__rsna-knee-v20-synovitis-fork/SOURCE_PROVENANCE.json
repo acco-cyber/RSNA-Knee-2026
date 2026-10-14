@@ -1,0 +1,49 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-v20-synovitis-fork",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-v20-synovitis-fork",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357114664"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:27.905974+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-v20-synovitis-fork",
+    "id_no": 138058115,
+    "title": "RSNA Knee V20 Synovitis Fork",
+    "code_file": "rsna-knee-v20-synovitis-fork.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "nartaa/rsna-knee-publication-swa-weights-20261007"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "0393a28f3d31865d0795ceafa14f0499c6939133dbd611804dd4877105bd7b4e",
+  "publication_source_sha256": "2db1b2a2123f17f28ab65487d8b146b87636ac3923b0e1e8c6d54a2d2b8df478",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-v20-synovitis-fork.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-v20-synovitis-fork"
+}

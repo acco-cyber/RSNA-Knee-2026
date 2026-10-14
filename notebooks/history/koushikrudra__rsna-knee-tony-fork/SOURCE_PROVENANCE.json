@@ -1,0 +1,50 @@
+{
+  "notebook_ref": "koushikrudra/rsna-knee-tony-fork",
+  "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-tony-fork",
+  "original_author_handle": "koushikrudra",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "343708360"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:44.295691+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "koushikrudra/rsna-knee-tony-fork",
+    "id_no": 131387328,
+    "title": "rsna-knee-tony-fork",
+    "code_file": "rsna-knee-tony-fork.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "47510046fc32377cb0c297aa7820c2672b276608f33bc71e64dcc133fedbc2d4",
+  "publication_source_sha256": "e9a256b769efb4ab3a141499e9d7f8a52f71212d89907616af537167956126a8",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-tony-fork.ipynb"
+  ],
+  "publication_path": "notebooks/history/koushikrudra__rsna-knee-tony-fork"
+}

@@ -1,0 +1,67 @@
+{
+  "notebook_ref": "uradkr/rsna-notebook",
+  "source_url": "https://www.kaggle.com/code/uradkr/rsna-notebook",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "348042783",
+    "348043780",
+    "348044999"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:07:01.017934+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "uradkr/rsna-notebook",
+    "id_no": 133467859,
+    "title": "RSNA Notebook",
+    "code_file": "rsna-notebook.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": true,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-native384",
+      "dreaddevelopment/raptor-knee-native384dense",
+      "mattiaangeli/knee-mri-fold-weights",
+      "mattiaangeli/opencv-python-headless-4120088-x86",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "pilkwang/rsna-knee-llm-labels",
+      "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/base/1",
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "36bbf4b1be1cf274471a6c7b8f11902add6fd3c1a61ffda405abcf3942d0b658",
+  "publication_source_sha256": "0433b89fe6e10394af8a1738cb4a7e1f2468573aa5c9efd9a16fc0f45293acbb",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-notebook.ipynb"
+  ],
+  "publication_path": "notebooks/history/uradkr__rsna-notebook"
+}

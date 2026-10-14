@@ -1,0 +1,54 @@
+{
+  "notebook_ref": "uradkr/rsna-rapid-triplex-v1",
+  "source_url": "https://www.kaggle.com/code/uradkr/rsna-rapid-triplex-v1",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "346095752",
+    "346096993",
+    "346097658"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:07:05.608812+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "uradkr/rsna-rapid-triplex-v1",
+    "id_no": 132577333,
+    "title": "RSNA Rapid Triplex V1",
+    "code_file": "rsna-rapid-triplex-v1.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-widedense",
+      "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "e09011f1914949a36d0e7bbbff6010fb0d01190bb0c57d5803c2f96f93c3a2a8",
+  "publication_source_sha256": "b84978648a876165c21b0460829fc0761ff4f58a8054a2afa7893438c04e1774",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-rapid-triplex-v1.ipynb"
+  ],
+  "publication_path": "notebooks/history/uradkr__rsna-rapid-triplex-v1"
+}

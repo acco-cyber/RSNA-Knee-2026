@@ -1,0 +1,10 @@
+{
+  "base_path": "/workspace/scratch/2d32e5629d42/recovered_kaggle/best_base/rsna-knee-v224-r7-reader-students10.ipynb",
+  "base_sha256": "3787d80b78aca86af233d9c305da0ee217983e98cd8d3645e08aa3e342eebdcf",
+  "source_version": 358274276,
+  "candidate_sha256": "c40e378e67ac08aec09921e905f6bcee7fcf42d1fe4b1ab9573eafa870d0e04d",
+  "r7_manifest_sha256": "c4bb0f7399ada9a020e0c15cae6252033cf0c4335e999961793a176063074ec6",
+  "parse_checks": "all Python cell and writefile bodies passed",
+  "real_inference_completed": false,
+  "actual_candidate_score": null
+}

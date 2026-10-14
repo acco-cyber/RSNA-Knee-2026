@@ -1,0 +1,54 @@
+{
+  "notebook_ref": "uradkr/rsna-base",
+  "source_url": "https://www.kaggle.com/code/uradkr/rsna-base",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "345764324",
+    "346015599",
+    "346034274"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:07:00.335897+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "uradkr/rsna-base",
+    "id_no": 132420640,
+    "title": "rsna-base",
+    "code_file": "rsna-base.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-widedense",
+      "tonylica/rsna-knee-bend-dinov3-0917-repro-assets"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "56b4c90121e125289ba5d62819837aba32bb568e61090e46d650f0a36530161c",
+  "publication_source_sha256": "bdb6b35f0bf9473ea8e0521b41d0275fb44cde6d9c4073fdbbc5fa96177107f2",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-base.ipynb"
+  ],
+  "publication_path": "notebooks/history/uradkr__rsna-base"
+}

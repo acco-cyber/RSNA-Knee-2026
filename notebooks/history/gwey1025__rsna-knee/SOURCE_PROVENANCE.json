@@ -1,0 +1,61 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "342457247"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:04.043859+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee",
+    "id_no": 130787176,
+    "title": "RSNA Knee",
+    "code_file": "rsna-knee.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "flight0234/rsna-knee-hybrid-report-labels",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "lixin73/rsna-knee-llm-report-labels-sol56",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/large/1",
+      "metaresearch/dinov2/PyTorch/base/1",
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "33f5c6dfc524834ab0b89f3deb099b30771ae57639d43fdaaf2eb109c170f2e1",
+  "publication_source_sha256": "3628bccff05523d9589bcafb653e62a6f52864953abd40b12a39dad5a4fc9465",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee"
+}

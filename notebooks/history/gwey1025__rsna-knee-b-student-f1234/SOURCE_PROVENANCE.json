@@ -1,0 +1,49 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-b-student-f1234",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-b-student-f1234",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:17.072835+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-b-student-f1234",
+    "id_no": 138146373,
+    "title": "RSNA Knee B Student F1234",
+    "code_file": "rsna-knee-b-student-f1234.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": true,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+    ],
+    "kernel_sources": [
+      "gwey1025/rsna-knee-a1-train-cache-labels",
+      "gwey1025/rsna-knee-a2-teacher-train-preds"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "bfd848256fedfd1dcce4c5aac2a291eddc2a7224008ba071dfbb92f59ef035e4",
+  "publication_source_sha256": "ddec8340b0b06d66cc0f14f779077aecf083feebcac78fc66528cc1aba125073",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-b-student-f1234.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-b-student-f1234"
+}

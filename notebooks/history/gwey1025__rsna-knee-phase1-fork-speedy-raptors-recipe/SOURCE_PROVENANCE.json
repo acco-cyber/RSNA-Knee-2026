@@ -1,0 +1,66 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-phase1-fork-speedy-raptors-recipe",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-phase1-fork-speedy-raptors-recipe",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "352331874"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:27.891266+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-phase1-fork-speedy-raptors-recipe",
+    "id_no": 135627482,
+    "title": "RSNA Knee Phase1 Fork (Speedy Raptors recipe)",
+    "code_file": "rsna-knee-phase1-fork-speedy-raptors-recipe.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": false,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-native384",
+      "dreaddevelopment/raptor-knee-native384dense",
+      "mattiaangeli/knee-mri-fold-weights",
+      "mattiaangeli/opencv-python-headless-4120088-x86",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+      "mattiaangeli/rsna-knee-coatnet-d4-depthzone-swa3-b2",
+      "mattiaangeli/rsna-knee-coatnet-global96-top3",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "pilkwang/rsna-knee-llm-labels",
+      "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "2fc5a4206d76c13a2ef79a3943a787f13713f873443b535b8471eb3141dc9489",
+  "publication_source_sha256": "80a4464b40893ae492293989d7dc60a309f10eddd9cc07dcfe0290049f7a9a24",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-phase1-fork-speedy-raptors-recipe.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-phase1-fork-speedy-raptors-recipe"
+}

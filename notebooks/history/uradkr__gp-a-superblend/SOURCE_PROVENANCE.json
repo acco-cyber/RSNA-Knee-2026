@@ -1,0 +1,51 @@
+{
+  "notebook_ref": "uradkr/gp-a-superblend",
+  "source_url": "https://www.kaggle.com/code/uradkr/gp-a-superblend",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357951241"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:49.623739+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "58063a0af64677ba49fd04689b00b82f3297f37088f335b059fabec0e7fe059b",
+  "publication_source_sha256": "72cd294a47f51e10e097422e4a59d7935eed5fa0a8da7f7bbd0633b7a369b662",
+  "kernel_metadata": {
+    "id": "uradkr/gp-a-superblend",
+    "id_no": 138451213,
+    "title": "gp-a-superblend",
+    "code_file": "gp-a-superblend.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "gp-a-superblend.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/uradkr__gp-a-superblend"
+}

@@ -1,0 +1,64 @@
+{
+  "notebook_ref": "uradkr/rsna-knee-hybrid-raptor-meniscus-specialist",
+  "source_url": "https://www.kaggle.com/code/uradkr/rsna-knee-hybrid-raptor-meniscus-specialist",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "348828074"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:07:00.470269+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "uradkr/rsna-knee-hybrid-raptor-meniscus-specialist",
+    "id_no": 133857630,
+    "title": "RSNA Knee | Hybrid Raptor + Meniscus Specialist",
+    "code_file": "rsna-knee-hybrid-raptor-meniscus-specialist.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-native384",
+      "dreaddevelopment/raptor-knee-native384dense",
+      "mattiaangeli/knee-mri-fold-weights",
+      "mattiaangeli/opencv-python-headless-4120088-x86",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "pilkwang/rsna-knee-llm-labels",
+      "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "f7c351b8976a75e7f7227bd78ab5f2cbb00f978221481a266e5f7baf5ec212a4",
+  "publication_source_sha256": "c7c5610625980469d53f059defeef4c39bf8681a9ae3d574c4248a56857ab0e6",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-hybrid-raptor-meniscus-specialist.ipynb"
+  ],
+  "publication_path": "notebooks/history/uradkr__rsna-knee-hybrid-raptor-meniscus-specialist"
+}

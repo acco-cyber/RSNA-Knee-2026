@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "synthetic_studies": 500,
+  "coverage_cases": [
+    "384 fails",
+    "224 fails",
+    "both Raptors fail",
+    "R7 fails"
+  ],
+  "corrected_fusion_matches_independent_formula": true,
+  "primary_raptor_source_unchanged": true,
+  "preview_compile_policy_cases": [
+    0,
+    1,
+    3,
+    4,
+    1300
+  ],
+  "real_inference_completed": false,
+  "candidate_sha256": "c40e378e67ac08aec09921e905f6bcee7fcf42d1fe4b1ab9573eafa870d0e04d"
+}

@@ -1,0 +1,51 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-h957-reader",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-h957-reader",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "357963167"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:22.681666+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-h957-reader",
+    "id_no": 138478725,
+    "title": "Rsna Knee H957 Reader",
+    "code_file": "rsna-knee-h957-reader.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "heliosli/rsna-knee-compact-r7cnxfsss",
+      "nartaa/rsna-knee-publication-swa-weights-20261007",
+      "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "3f61a703ce4ea61b8e2a44fe86d58f787d944854864a4ef0881dae89a17361eb",
+  "publication_source_sha256": "c3cbb6874c7a5a6d5dbbb08f6942f03fe87b0e84861e859426fd7cd433ab884e",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-h957-reader.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-h957-reader"
+}

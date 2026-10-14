@@ -1,0 +1,49 @@
+{
+  "notebook_ref": "aadigupta7686/rsna-knee-dinosaur-v5",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-dinosaur-v5",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "356972436"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:58.284548+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "aadigupta7686/rsna-knee-dinosaur-v5",
+    "id_no": 137989311,
+    "title": "RSNA Knee | DINOsaur V5? \ud83e\udd96 ",
+    "code_file": "rsna-knee-dinosaur-v5.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "nartaa/rsna-knee-publication-swa-weights-20261007"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "db3a0c70788757a8bb5d4f5da2342a0203267529c8ace30d4b0add6daeb7b141",
+  "publication_source_sha256": "8bb5e844da6fc17eca606277b7b833b104fb21f594266530ea3263c05926734d",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-dinosaur-v5.ipynb"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__rsna-knee-dinosaur-v5"
+}

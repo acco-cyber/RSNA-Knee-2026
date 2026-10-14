@@ -1,0 +1,64 @@
+{
+  "notebook_ref": "koushikrudra/notebookae581ca5ed",
+  "source_url": "https://www.kaggle.com/code/koushikrudra/notebookae581ca5ed",
+  "original_author_handle": "koushikrudra",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "348239527"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:33.253519+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "koushikrudra/notebookae581ca5ed",
+    "id_no": 133556683,
+    "title": "notebookae581ca5ed",
+    "code_file": "notebookae581ca5ed.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": true,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-native384",
+      "dreaddevelopment/raptor-knee-native384dense",
+      "mattiaangeli/knee-mri-fold-weights",
+      "mattiaangeli/opencv-python-headless-4120088-x86",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "pilkwang/rsna-knee-llm-labels",
+      "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "b2cb09d055d58509d7e0d89cb70f6fb5b8cb59472266efd59e7060a47d540b7f",
+  "publication_source_sha256": "9ca83e1384b3afc472320f2dcf47d0da6aa0be3d3986fcb87d435ec830dc8d5b",
+  "publication_files": [
+    "kernel-metadata.json",
+    "notebookae581ca5ed.ipynb"
+  ],
+  "publication_path": "notebooks/history/koushikrudra__notebookae581ca5ed"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "gwey1025/rsna-knee-l2-tpu-train-20261015",
+  "title": "RSNA Knee L2 TPU Train 20261015",
+  "code_file": "l2_convnext_tpu_5fold.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": true,
+  "enable_internet": true,
+  "machine_shape": "TpuV5E8",
+  "dataset_sources": [
+    "gwey1025/rsna-knee-l2-labels-20261015"
+  ],
+  "kernel_sources": [
+    "gwey1025/rsna-knee-a1-train-cache-labels",
+    "gwey1025/rsna-knee-b-student-f01234-r2-convnext"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "model_sources": []
+}

@@ -1,0 +1,62 @@
+{
+  "notebook_ref": "koushikrudra/rsna-knee-v48-budget15",
+  "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-v48-budget15",
+  "original_author_handle": "koushikrudra",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "343011163"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:49.370962+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "koushikrudra/rsna-knee-v48-budget15",
+    "id_no": 131049799,
+    "title": "rsna-knee-v48-budget15",
+    "code_file": "rsna-knee-v48-budget15.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "lixin73/rsna-knee-llm-report-labels-sol56",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1",
+      "metaresearch/dinov2/PyTorch/base/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "c54ddaa651c05d62cf9dabd45e35812691c43e2916becdd2a0eec2b2dd4263a4",
+  "publication_source_sha256": "7469ed2f70f4080089713a147f95d1802f55b9dc133fe84c05a8fa6dab27b71a",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-v48-budget15.ipynb"
+  ],
+  "publication_path": "notebooks/history/koushikrudra__rsna-knee-v48-budget15"
+}

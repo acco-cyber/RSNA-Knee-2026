@@ -1,0 +1,59 @@
+{
+  "notebook_ref": "aadigupta7686/bend-the-knee-to-dinov3-ensembled",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/bend-the-knee-to-dinov3-ensembled",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "342156844",
+    "342181768"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:47.103698+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "1245a89d943eb0ab608cf0410ee2ae10d804c5089477482f83018c2784219875",
+  "publication_source_sha256": "4187396cc742d9bda58bffe6cac25c92a656158cd542a75f82a441cd1d918ab0",
+  "kernel_metadata": {
+    "id": "aadigupta7686/bend-the-knee-to-dinov3-ensembled",
+    "id_no": 130649063,
+    "title": "Bend the Knee to DinoV3 (ensembled)",
+    "code_file": "bend-the-knee-to-dinov3-ensembled.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "lixin73/rsna-knee-llm-report-labels-sol56",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/base/1",
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "bend-the-knee-to-dinov3-ensembled.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__bend-the-knee-to-dinov3-ensembled"
+}

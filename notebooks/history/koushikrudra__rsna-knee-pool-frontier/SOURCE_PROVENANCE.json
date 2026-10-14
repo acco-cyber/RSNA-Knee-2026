@@ -1,0 +1,52 @@
+{
+  "notebook_ref": "koushikrudra/rsna-knee-pool-frontier",
+  "source_url": "https://www.kaggle.com/code/koushikrudra/rsna-knee-pool-frontier",
+  "original_author_handle": "koushikrudra",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "341997874"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:44.172399+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "koushikrudra/rsna-knee-pool-frontier",
+    "id_no": 130572762,
+    "title": "rsna-knee-pool-frontier",
+    "code_file": "rsna-knee-pool-frontier.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+      "pilkwang/rsna-knee-llm-labels",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "d3fdd706b5025e6d8966eb8f5a9a8c258d5084d8af7a242d681ccef4380e3277",
+  "publication_source_sha256": "33b100a012c77bbd1094475878bf1152f47e5b4c8da4ef840db860731b123fdc",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-pool-frontier.ipynb"
+  ],
+  "publication_path": "notebooks/history/koushikrudra__rsna-knee-pool-frontier"
+}

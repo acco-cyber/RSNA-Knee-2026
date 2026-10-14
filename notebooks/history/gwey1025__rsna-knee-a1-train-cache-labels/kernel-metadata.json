@@ -1,0 +1,24 @@
+{
+  "id": "gwey1025/rsna-knee-a1-train-cache-labels",
+  "id_no": 138063602,
+  "title": "RSNA Knee A1 Train Cache Labels",
+  "code_file": "rsna-knee-a1-train-cache-labels.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+    "karttikjangid05/rsna-knee-public-llm-label-sets-compared"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+  "machine_shape": "None"
+}

@@ -1,0 +1,64 @@
+{
+  "notebook_ref": "aadigupta7686/rsna-knee-abnormality",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/rsna-knee-abnormality",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "343017226"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:52.332563+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "aadigupta7686/rsna-knee-abnormality",
+    "id_no": 131052356,
+    "title": "RSNA Knee Abnormality",
+    "code_file": "rsna-knee-abnormality.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "lixin73/rsna-knee-llm-report-labels-sol56",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/base/1",
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "8936191cc5fb64fde4381466938e7af033d101c4600bbf82f2f57cff9d473138",
+  "publication_source_sha256": "adb9acc3f42e1e207724bae5dc27f01221e9082aa43ee93a2bb42f1f3c2803cf",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-abnormality.ipynb"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__rsna-knee-abnormality"
+}

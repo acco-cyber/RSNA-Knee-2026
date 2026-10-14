@@ -1,0 +1,64 @@
+{
+  "notebook_ref": "uradkr/bend-the-knee-to-the-dinosaurs",
+  "source_url": "https://www.kaggle.com/code/uradkr/bend-the-knee-to-the-dinosaurs",
+  "original_author_handle": "uradkr",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "348051451"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:49.514836+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "346c29c8392ef9fcf4f56acabcd50f6908130cd2f64bc17aebc763ed6ac3ce9e",
+  "publication_source_sha256": "48b9aabad76a595b340e2d2ff573e5fff430713b352d5aa0fcd072fa6435f11a",
+  "kernel_metadata": {
+    "id": "uradkr/bend-the-knee-to-the-dinosaurs",
+    "id_no": 133471705,
+    "title": "Bend the Knee to the Dinosaurs ",
+    "code_file": "bend-the-knee-to-the-dinosaurs.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "dreaddevelopment/raptor-knee-maxspan",
+      "dreaddevelopment/raptor-knee-native384",
+      "dreaddevelopment/raptor-knee-native384dense",
+      "mattiaangeli/knee-mri-fold-weights",
+      "mattiaangeli/opencv-python-headless-4120088-x86",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "mattiaangeli/rsna-knee-coat-resgated-ep10-top3",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "pilkwang/rsna-knee-llm-labels",
+      "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "bend-the-knee-to-the-dinosaurs.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/uradkr__bend-the-knee-to-the-dinosaurs"
+}

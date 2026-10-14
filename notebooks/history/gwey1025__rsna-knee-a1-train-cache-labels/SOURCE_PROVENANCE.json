@@ -1,0 +1,45 @@
+{
+  "notebook_ref": "gwey1025/rsna-knee-a1-train-cache-labels",
+  "source_url": "https://www.kaggle.com/code/gwey1025/rsna-knee-a1-train-cache-labels",
+  "original_author_handle": "gwey1025",
+  "author_display_name": "wenyuan Guo",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:06:04.071202+00:00",
+  "status": "recovered",
+  "kernel_metadata": {
+    "id": "gwey1025/rsna-knee-a1-train-cache-labels",
+    "id_no": 138063602,
+    "title": "RSNA Knee A1 Train Cache Labels",
+    "code_file": "rsna-knee-a1-train-cache-labels.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": false,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [],
+    "dataset_sources": [
+      "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+      "karttikjangid05/rsna-knee-public-llm-label-sets-compared"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [],
+    "docker_image": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+    "machine_shape": "None"
+  },
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "bee860f888d5c5a4940df0950a695bc48dff7b22220d4b45cf3277c47f8479e9",
+  "publication_source_sha256": "e789ac4d3ff0dbff7e4dd53854012c2e7eddfa8830595c00be7cf026bb4c4d01",
+  "publication_files": [
+    "kernel-metadata.json",
+    "rsna-knee-a1-train-cache-labels.ipynb"
+  ],
+  "publication_path": "notebooks/history/gwey1025__rsna-knee-a1-train-cache-labels"
+}

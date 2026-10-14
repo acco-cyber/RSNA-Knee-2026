@@ -1,0 +1,62 @@
+{
+  "notebook_ref": "aadigupta7686/bend-the-knee-to-dinov3-ensembled-3e1413",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/bend-the-knee-to-dinov3-ensembled-3e1413",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "343313109"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:47.104792+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "7f2ac9468177a687f18f8f73d48b41eccd8e0acac888a0f7c2d0e5e0115c6494",
+  "publication_source_sha256": "4c2e18d8152df46bbb3969b5b3057b947ea33dbff3f0279219a15c4c3d1a75b2",
+  "kernel_metadata": {
+    "id": "aadigupta7686/bend-the-knee-to-dinov3-ensembled-3e1413",
+    "id_no": 131191782,
+    "title": "Bend the Knee to DinoV3 (ensembled) 3e1413",
+    "code_file": "bend-the-knee-to-dinov3-ensembled-3e1413.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "mattiaangeli/knee-mri-fold-weights",
+      "pilkwang/pilkwang-public-dataset-for-notebooks-figures",
+      "marwanmath/resnet-50-radimagenet-marwan",
+      "antoinegg1/rsna-knee-e11-diverse-heads-v20",
+      "antoinegg1/rsna-knee-e9-radimagenet-heads-v15",
+      "stevenleehans/rsna-knee-llm-report-labels",
+      "pilkwang/rsna-knee-llm-labels",
+      "mattiaangeli/rsna-knee-radimagenet-foldsv1-heads",
+      "prvsiyan/rsna-knee-v52-radimagenet-heads-20260812",
+      "pilkwang/rsna-knee-weights"
+    ],
+    "kernel_sources": [
+      "sofiaanjenje/rsna-knee-e11-train",
+      "sofiaanjenje/rsna-knee-e13-train"
+    ],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "bend-the-knee-to-dinov3-ensembled-3e1413.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__bend-the-knee-to-dinov3-ensembled-3e1413"
+}

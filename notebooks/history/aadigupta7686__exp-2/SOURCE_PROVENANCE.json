@@ -1,0 +1,52 @@
+{
+  "notebook_ref": "aadigupta7686/exp-2",
+  "source_url": "https://www.kaggle.com/code/aadigupta7686/exp-2",
+  "original_author_handle": "aadigupta7686",
+  "author_display_name": "",
+  "requested_snapshot": "latest authorized source",
+  "historical_submission_script_version_ids": [
+    "341398138"
+  ],
+  "historical_version_caveat": "Latest source may differ from the version used in historical submissions; historical scriptVersionIds are preserved separately.",
+  "fetched_at_utc": "2026-10-14T20:05:47.107945+00:00",
+  "status": "recovered",
+  "outputs_removed": 0,
+  "nonempty_execution_counts_removed": 0,
+  "attachments_removed": 0,
+  "original_source_sha256": "b26c6f51a34c1ac6cb000bfb8c4022d6b55bf4b3d5a35805c9a91abee8a5b698",
+  "publication_source_sha256": "dda08c0a7aa0638b8509c4bef88f939ff5a97e2256b77e139ed25c7d216d8c9d",
+  "kernel_metadata": {
+    "id": "aadigupta7686/exp-2",
+    "id_no": 130291132,
+    "title": "exp-2",
+    "code_file": "exp-2.ipynb",
+    "language": "python",
+    "kernel_type": "notebook",
+    "is_private": true,
+    "enable_gpu": true,
+    "enable_tpu": false,
+    "enable_internet": false,
+    "keywords": [
+      "gpu"
+    ],
+    "dataset_sources": [
+      "pilkwang/rsna-knee-weights",
+      "tonylica/rsna2026-models"
+    ],
+    "kernel_sources": [],
+    "competition_sources": [
+      "rsna-knee-abnormality-detection"
+    ],
+    "model_sources": [
+      "metaresearch/dinov2/PyTorch/base/1",
+      "metaresearch/dinov2/PyTorch/small/1"
+    ],
+    "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machine_shape": "NvidiaTeslaT4"
+  },
+  "publication_files": [
+    "exp-2.ipynb",
+    "kernel-metadata.json"
+  ],
+  "publication_path": "notebooks/history/aadigupta7686__exp-2"
+}
