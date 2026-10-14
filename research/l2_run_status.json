@@ -1,0 +1,66 @@
+{
+  "as_of_utc": "2026-10-14T22:27:00.890487+00:00",
+  "target_public_score_range": [
+    0.96,
+    0.964
+  ],
+  "target_public_score_demonstrated": false,
+  "best_public_score_at_initial_audit": 0.956,
+  "initial_submissions_audited": 71,
+  "public_notebook_entries_inventoried": 1100,
+  "all_public_sources_read": false,
+  "subagents_used": 6,
+  "reports_annotated": 4349,
+  "dataset": {
+    "ref": "gwey1025/rsna-knee-l2-labels-20261015",
+    "version": 1,
+    "private": true,
+    "complete": true
+  },
+  "actual_l2_training": {
+    "ref": "gwey1025/rsna-knee-l2-smoke-20261015",
+    "completed_folds": [
+      0
+    ],
+    "completed_epochs": 1,
+    "k_train": 4,
+    "k_eval": 12,
+    "gold_diagnostic_before": 0.9230745796077656,
+    "gold_diagnostic_after": 0.9200921397209325,
+    "gold_independent": false
+  },
+  "full_five_fold_training": {
+    "ref": "gwey1025/rsna-knee-l2-tpu-train-20261015",
+    "status": "QUEUED",
+    "completed": false
+  },
+  "requested_new_submissions": 2,
+  "accepted_new_submissions": [
+    {
+      "ref": 57194274,
+      "kernel": "gwey1025/rsna-knee-0-962-target-crop224-audit",
+      "version": 1,
+      "status": "PENDING",
+      "public_score": null
+    }
+  ],
+  "second_candidate": {
+    "kernel": "gwey1025/rsna-knee-l2-0-962-target-fold0",
+    "version": 2,
+    "source_sha256": "991141baf7616eb20d5385642fc089b331af7c4a535dd8cc9b1d00a9cb880764",
+    "remote_source_cells_match": true,
+    "preview_status": "RUNNING",
+    "submitted": false,
+    "new_l2_weight": 0.05,
+    "existing_student_count": 15,
+    "live_logs_http_status": 500,
+    "preview_files_available": false
+  },
+  "public_notebooks_preserved": 94,
+  "limitations": [
+    "No new leaderboard score is available.",
+    "The new one-fold Gold58 diagnostic decreased.",
+    "The full TPU job has not executed; runtime and collectives are not yet validated.",
+    "The accepted GPU preview is still running without logs; its actual MRI output is not yet validated."
+  ]
+}

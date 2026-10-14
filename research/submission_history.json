@@ -1,0 +1,105 @@
+{
+  "competition": "rsna-knee-abnormality-detection",
+  "account": "gwey1025",
+  "team": "Team Alicia",
+  "observed_at_utc": "2026-10-14T22:27:06.014625+00:00",
+  "submission_count": 72,
+  "unique_submission_refs": 72,
+  "unique_notebook_refs": 52,
+  "scored_count": 70,
+  "rerun_error_count": 1,
+  "best_displayed_public_score": 0.956,
+  "score_precision_warning": "Scores retain Kaggle's displayed precision; unrounded gains are not exposed.",
+  "first_submission_utc": "2026-08-09T04:34:57.073Z",
+  "latest_submission_utc": "2026-10-14T20:13:53.290Z",
+  "pagination_validation": {
+    "requested_page_size": 100,
+    "pages_returned": 1,
+    "records_returned": 72,
+    "matches_official_num_total": true,
+    "all_refs_unique": true,
+    "previous_exported_refs_preserved": true,
+    "completeness_basis": "Distinct references equal official lifetime total; only official next_page_token is traversed."
+  },
+  "official_submission_limits": {
+    "numToday": 3,
+    "numTotal": 72,
+    "numAllowedNow": 2,
+    "limitedByTotal": false
+  },
+  "current_quota_utc_day": "2026-10-14",
+  "next_submission_reset_utc": "2026-10-15T00:00:00Z",
+  "next_submission_reset_kst": "2026-10-15T09:00:00+09:00",
+  "official_accelerator_quota": {
+    "queried_at_utc": "2026-10-14T20:01:32.327993+00:00",
+    "refresh_utc": "2026-10-17T00:00:00Z",
+    "gpu": {
+      "time_used": 106696.824,
+      "time_reserved": 0.0,
+      "total_time_allowed": 108000.0,
+      "minimum_time_allowed": 108000.0,
+      "remaining_seconds": 1303.1760000000068
+    },
+    "tpu": {
+      "time_used": 0.0,
+      "time_reserved": 0.0,
+      "total_time_allowed": 72000.0,
+      "minimum_time_allowed": 72000.0,
+      "remaining_seconds": 72000.0
+    }
+  },
+  "runtime_availability": "Submission list does not expose hidden-scoring runtime.",
+  "daily_reset_primary_source": "https://www.kaggle.com/discussions/product-feedback/48286",
+  "submitter_counts": {
+    "gwey1025": 15,
+    "uradkr": 19,
+    "aadigupta7686": 25,
+    "koushikrudra": 13
+  },
+  "initial_audit": {
+    "observed_at_utc": "2026-10-14T20:03:26.602028+00:00",
+    "submission_count": 71,
+    "scored_count": 70,
+    "rerun_error_count": 1,
+    "pagination_validation": {
+      "requested_page_size": 100,
+      "records_returned": 71,
+      "matches_official_num_total": true,
+      "legacy_first50_matches": true,
+      "page_number_2_repeats_first_page": true,
+      "completeness_basis": "71 distinct returned records equal official lifetime total71; page_number is ignored by current endpoint."
+    },
+    "official_submission_limits": {
+      "numToday": 2,
+      "numTotal": 71,
+      "numAllowedNow": 3,
+      "limitedByTotal": false
+    },
+    "official_accelerator_quota": {
+      "queried_at_utc": "2026-10-14T20:01:32.327993+00:00",
+      "refresh_utc": "2026-10-17T00:00:00Z",
+      "gpu": {
+        "time_used": 106696.824,
+        "time_reserved": 0.0,
+        "total_time_allowed": 108000.0,
+        "minimum_time_allowed": 108000.0,
+        "remaining_seconds": 1303.1760000000068
+      },
+      "tpu": {
+        "time_used": 0.0,
+        "time_reserved": 0.0,
+        "total_time_allowed": 72000.0,
+        "minimum_time_allowed": 72000.0,
+        "remaining_seconds": 72000.0
+      }
+    }
+  },
+  "pending_count": 1,
+  "error_count": 1,
+  "unscored_count": 0,
+  "accelerator_quota_refreshed": false,
+  "pending_submission_refs": [
+    "57194274"
+  ],
+  "initial_raw_evidence_sha256": "3bb0306396dd2742fb5be9ee2d0b6f3df7d9aefbf733c97aea89719c18ab8dd8"
+}
