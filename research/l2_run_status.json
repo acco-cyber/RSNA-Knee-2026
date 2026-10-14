@@ -1,5 +1,5 @@
 {
-  "as_of_utc": "2026-10-14T22:27:00.890487+00:00",
+  "as_of_utc": "2026-10-14T22:34:58.613950+00:00",
   "target_public_score_range": [
     0.96,
     0.964
@@ -37,9 +37,20 @@
   "requested_new_submissions": 2,
   "accepted_new_submissions": [
     {
+      "ref": 57196785,
+      "kernel": "gwey1025/rsna-knee-l2-0-962-target-fold0",
+      "version": 2,
+      "script_version_id": 358476110,
+      "submitted_utc": "2026-10-14T22:33:27.197Z",
+      "status": "PENDING",
+      "public_score": null
+    },
+    {
       "ref": 57194274,
       "kernel": "gwey1025/rsna-knee-0-962-target-crop224-audit",
       "version": 1,
+      "script_version_id": 358449637,
+      "submitted_utc": "2026-10-14T20:13:53.290Z",
       "status": "PENDING",
       "public_score": null
     }
@@ -49,18 +60,31 @@
     "version": 2,
     "source_sha256": "991141baf7616eb20d5385642fc089b331af7c4a535dd8cc9b1d00a9cb880764",
     "remote_source_cells_match": true,
-    "preview_status": "RUNNING",
-    "submitted": false,
+    "preview_status": "COMPLETE",
+    "submitted": true,
     "new_l2_weight": 0.05,
     "existing_student_count": 15,
-    "live_logs_http_status": 500,
-    "preview_files_available": false
+    "live_logs_http_status": 200,
+    "preview_files_available": true,
+    "actual_l2_predictions_finite": true,
+    "l2_failed": 0,
+    "seconds_total": 52.15801286697388,
+    "seconds_new_l2_forward": 14.389193254999782,
+    "dependency_versions_match_first_base": true,
+    "preview_csv_equal_first_candidate": true,
+    "submission_ref": 57196785,
+    "competition_status": "PENDING"
   },
   "public_notebooks_preserved": 94,
   "limitations": [
     "No new leaderboard score is available.",
     "The new one-fold Gold58 diagnostic decreased.",
-    "The full TPU job has not executed; runtime and collectives are not yet validated.",
-    "The accepted GPU preview is still running without logs; its actual MRI output is not yet validated."
-  ]
+    "The full TPU job has not executed; runtime and collectives are not yet validated."
+  ],
+  "official_submission_limits": {
+    "used_today": 4,
+    "remaining_today": 1,
+    "lifetime_total": 73
+  },
+  "new_submissions_requested_and_accepted": 2
 }

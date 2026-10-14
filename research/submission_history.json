@@ -2,29 +2,29 @@
   "competition": "rsna-knee-abnormality-detection",
   "account": "gwey1025",
   "team": "Team Alicia",
-  "observed_at_utc": "2026-10-14T22:27:06.014625+00:00",
-  "submission_count": 72,
-  "unique_submission_refs": 72,
-  "unique_notebook_refs": 52,
+  "observed_at_utc": "2026-10-14T22:34:00.203488+00:00",
+  "submission_count": 73,
+  "unique_submission_refs": 73,
+  "unique_notebook_refs": 53,
   "scored_count": 70,
   "rerun_error_count": 1,
   "best_displayed_public_score": 0.956,
   "score_precision_warning": "Scores retain Kaggle's displayed precision; unrounded gains are not exposed.",
   "first_submission_utc": "2026-08-09T04:34:57.073Z",
-  "latest_submission_utc": "2026-10-14T20:13:53.290Z",
+  "latest_submission_utc": "2026-10-14T22:33:27.197Z",
   "pagination_validation": {
     "requested_page_size": 100,
     "pages_returned": 1,
-    "records_returned": 72,
+    "records_returned": 73,
     "matches_official_num_total": true,
     "all_refs_unique": true,
     "previous_exported_refs_preserved": true,
     "completeness_basis": "Distinct references equal official lifetime total; only official next_page_token is traversed."
   },
   "official_submission_limits": {
-    "numToday": 3,
-    "numTotal": 72,
-    "numAllowedNow": 2,
+    "numToday": 4,
+    "numTotal": 73,
+    "numAllowedNow": 1,
     "limitedByTotal": false
   },
   "current_quota_utc_day": "2026-10-14",
@@ -51,7 +51,7 @@
   "runtime_availability": "Submission list does not expose hidden-scoring runtime.",
   "daily_reset_primary_source": "https://www.kaggle.com/discussions/product-feedback/48286",
   "submitter_counts": {
-    "gwey1025": 15,
+    "gwey1025": 16,
     "uradkr": 19,
     "aadigupta7686": 25,
     "koushikrudra": 13
@@ -94,11 +94,12 @@
       }
     }
   },
-  "pending_count": 1,
+  "pending_count": 2,
   "error_count": 1,
   "unscored_count": 0,
   "accelerator_quota_refreshed": false,
   "pending_submission_refs": [
+    "57196785",
     "57194274"
   ],
   "initial_raw_evidence_sha256": "3bb0306396dd2742fb5be9ee2d0b6f3df7d9aefbf733c97aea89719c18ab8dd8"
