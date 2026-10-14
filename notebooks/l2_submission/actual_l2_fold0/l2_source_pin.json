@@ -1,0 +1,29 @@
+{
+  "dataset": "gwey1025/rsna-knee-l2-labels-20261015",
+  "dataset_version": 1,
+  "annotations_complete": true,
+  "annotated_studies": 4349,
+  "targets": [
+    "ACL",
+    "MCL",
+    "Medial Meniscus",
+    "Lateral Meniscus",
+    "Medial OA",
+    "Lateral OA",
+    "PF OA",
+    "Effusion",
+    "Synovitis",
+    "Baker's",
+    "Contusion",
+    "Fracture"
+  ],
+  "source_hashes": {
+    "labels_l2.csv": "4e28bbc05c08ae4509d0eab264ebb88365a0b2cb0683dcb40b63bce5b9dab315",
+    "weights_l2.csv": "7d0d5f9a11c28f1ab58bc1dbb4220ea87c34bc75c0104fdc91977353f0db4839",
+    "knee.py": "314c2af387a5cbd1d25f192f19f4ecc6d4ae4b30403e92e9d9b3ed2c325880b1",
+    "trainer": "1fa344820937c1c583345fd05fab300819b8e3fc6d54914466070162afa82911",
+    "labels_cons.csv": "0ef1c3b6f35a88ce99916ab52dd78e77f68eaa2646ca6790cfde9e396aee029a"
+  },
+  "train_ids_sha256": "ae968cb7d233d01c58e931cb4078f6abc90caf01eb6e0873ed6826bed08c20a4",
+  "val_ids_sha256": "b80b8b12c7d8bcafccdbbf66082e01efe18d52458dd9425c47dbd5856f926567"
+}

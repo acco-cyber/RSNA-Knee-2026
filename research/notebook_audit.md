@@ -7,7 +7,7 @@ The measured incumbent is `gwey1025/rsna-knee-v224-r7-reader-students10`, script
 Two concrete artifacts were prepared under `RSNA-Knee-2026/notebooks/l2_submission`:
 
 - `rsna-knee-0962-target-crop224-audit.ipynb`: same learned incumbent graph and coefficients, corrected crop224 failure/rank handling. Kaggle canonical ID: `gwey1025/rsna-knee-0-962-target-crop224-audit`.
-- `actual_l2_fold0/rsna-knee-l2-0-962-target-fold0.ipynb`: adds only explicit `student_l2_convnext_tiny_f0.pt` from `gwey1025/rsna-knee-l2-smoke-20261015`, a separate L2 family at 0.05 rank weight. Requires at least one completed L2 training epoch and L2 provenance. It cannot substitute older students or claim five trained folds.
+- `actual_l2_fold0/rsna-knee-l2-0-962-target-fold0.ipynb`: adds only explicit `student_l2_convnext_tiny_f0.pt` from `gwey1025/rsna-knee-l2-smoke-20261015`, a separate L2 family at 0.05 rank weight. Requires exactly one completed fixed smoke epoch, matching label/source/partition hashes, training manifest, completion receipt and checkpoint digest. It cannot substitute older students or claim five trained folds.
 
 Names containing 0.962 describe a target. Neither generated artifact has an established score in this audit.
 
@@ -59,7 +59,23 @@ MAST master/v2/v3/v4/v5 built-in CPU checks passed with scratch output paths. Th
 
 The controlled crop224 fusion passed an independent 500-study synthetic calculation including all four missing-branch cases. Its primary Raptor384 source is unchanged. The preview compile policy passed cohort-size checks at 0, 1, 3, 4, and 1300 studies. All artifact code/writefile bodies parse; saved outputs are cleared.
 
-R7's existing compile switch is disabled only for the three-study public preview through its normal worker interface, leaving hash-verified worker source unchanged. Hidden tests above three studies keep the manifest's compilation and compiled/eager parity check. This avoids the incumbent's roughly 320-second preview startup; the earlier saved complete preview took about eight minutes including reader/students. Actual optimized runtime still requires the Kaggle run.
+R7's existing compile switch is disabled only for the three-study public preview through its normal worker interface, leaving hash-verified worker source unchanged. Hidden tests above three studies keep the manifest's compilation and compiled/eager parity check. The parent's controlled preview completed in 317 seconds, and submission reference 57194274 was pending when inspected. Successful preview execution does not establish hidden-test runtime or an improved score.
+
+The L2 gate accepted a valid synthetic smoke artifact and rejected 18 materially wrong fixtures: old mode, K8 training, K4 evaluation, zero completed epochs, gold leakage, reversed targets, wrong label/weight/model/trainer digests, wrong partition/warm-start digests, mismatched completion checkpoint, false five-fold claims, extra receipts, incomplete pilots and absent final source pins. Actual L2 GPU training/inference remains unverified until parent retrieves the completed job artifacts.
+
+## L2 smoke identity and label generation
+
+Smoke training uses **four windows per slot**, a quota compromise relative to the original eight-window recipe. Evaluation retains twelve windows and the unchanged six-slot, area-256, JPEG-q95 preprocessing. The variant embeds the exact recovered training `knee.py`, requires its SHA256 `314c2af387a5cbd1d25f192f19f4ecc6d4ae4b30403e92e9d9b3ed2c325880b1`, and checks evaluation-window parity for every retained-series length from 3 through 32.
+
+The existing-student stage in the L2 variant resolves the original four training kernels and 15 filenames explicitly. Its former broad `student*.pt` glob would otherwise also count an attached L2 checkpoint as an incumbent student and blend it twice.
+
+The fold-0 variant was regenerated against the final private dataset version 1 with all 4,349 report-only studies annotated. Labels SHA256 is `4e28bbc05c08ae4509d0eab264ebb88365a0b2cb0683dcb40b63bce5b9dab315`; confidence weights SHA256 is `7d0d5f9a11c28f1ab58bc1dbb4220ea87c34bc75c0104fdc91977353f0db4839`. It also pins original consensus/folds, exact knee/trainer sources and training/validation UID digests. Regeneration against an incomplete pilot blocks execution before GPU work.
+
+Actual L2 probabilities are computed as a separate sidecar in the existing 15-student loop using the exact same prepared `x`, `mask` and `pos`. The original preprocessing function, 15-model mean and old rank-blend ASTs are unchanged. Only the sole L2 model is held on the second GPU when available; a single GPU remains supported. The append stage then applies the unchanged separate 0.05 rank blend using its own raw table and failure mask. No second DICOM preprocessing pass or new preprocessing worker pool remains.
+
+Updated CPU fixtures passed for unchanged input bytes and old predictions, empty-study and nonfinite sidecars, independent masks, average ties and an independent NumPy calculation of the 100-study/12-target blend. All 15 code/writefile cells parse and 18 malformed provenance artifacts remain rejected using the final dataset pins. These checks cannot establish checkpoint loading or GPU predictions; the real smoke output and Kaggle preview remain required.
+
+This audit agent completed private batches b024–b027, 400 reports, with literal evidence and exact UID/schema checks. Eight ambiguous ligament tears were changed to uncertain during semantic review where the report did not resolve the host's substantial/high-grade extent. Reports and report-derived annotations are kept out of the public repository. Annotation b025 row 84 is a shoulder report and abstains on all knee findings.
 
 ## Schema and metric
 

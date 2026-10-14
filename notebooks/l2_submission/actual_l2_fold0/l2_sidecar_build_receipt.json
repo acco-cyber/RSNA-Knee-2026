@@ -1,0 +1,13 @@
+{
+  "original_15_student_preprocessing_mean_rank_blend_unchanged": true,
+  "new_l2_folds": [
+    0
+  ],
+  "new_l2_weight": 0.05,
+  "shared_prepared_tensors": true,
+  "second_preprocessing_pass": false,
+  "l2_model_count": 1,
+  "setup_sha256": "9a6799701cb36d26c300380f1ffa20e7846c58865ce59a366e446d81047fafd1",
+  "sidecar_sha256": "e2509c7cbbdcf3787d0194d72e2d2403938c8a90c311be691cd70112d16f6ec1",
+  "separate_blend_sha256": "6ab8af1573017a5331baa68352315e88bd16efa3ed9ee2fc2b2569d9208bb538"
+}

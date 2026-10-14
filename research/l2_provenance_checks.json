@@ -1,0 +1,89 @@
+{
+  "valid_fixture": {
+    "verified": true,
+    "completed_epochs": 1,
+    "train_windows": 4,
+    "eval_windows": 12,
+    "annotations_complete": true,
+    "annotated_studies": 4349,
+    "dataset": "gwey1025/rsna-knee-l2-labels-20261015",
+    "dataset_version": null,
+    "checkpoint_sha256": "ck"
+  },
+  "malformed_fixtures_rejected": 18,
+  "checks": {
+    "old mode": {
+      "rejected": true,
+      "reason": "L2 provenance: checkpoint argument differs: mode"
+    },
+    "training K8": {
+      "rejected": true,
+      "reason": "L2 provenance: checkpoint argument differs: k_train"
+    },
+    "evaluation K4": {
+      "rejected": true,
+      "reason": "L2 provenance: checkpoint argument differs: k_eval"
+    },
+    "zero completed epochs": {
+      "rejected": true,
+      "reason": "L2 provenance: exactly one full smoke epoch is required"
+    },
+    "gold leak": {
+      "rejected": true,
+      "reason": "L2 provenance: gold entered gradient training"
+    },
+    "target order": {
+      "rejected": true,
+      "reason": "L2 provenance: checkpoint target order differs"
+    },
+    "wrong label generation": {
+      "rejected": true,
+      "reason": "L2 provenance: source digest differs: labels_l2.csv"
+    },
+    "wrong confidence source": {
+      "rejected": true,
+      "reason": "L2 provenance: source digest differs: weights_l2.csv"
+    },
+    "wrong model source": {
+      "rejected": true,
+      "reason": "L2 provenance: source digest differs: knee.py"
+    },
+    "wrong trainer source": {
+      "rejected": true,
+      "reason": "L2 provenance: source digest differs: trainer"
+    },
+    "wrong training partition": {
+      "rejected": true,
+      "reason": "L2 provenance: partition digest differs: train_ids_sha256"
+    },
+    "wrong validation partition": {
+      "rejected": true,
+      "reason": "L2 provenance: partition digest differs: val_ids_sha256"
+    },
+    "wrong warm start": {
+      "rejected": true,
+      "reason": "L2 provenance: warm start differs from the incumbent r2 fold 0"
+    },
+    "receipt checkpoint mismatch": {
+      "rejected": true,
+      "reason": "L2 provenance: completion receipt differs: checkpoint_sha256"
+    },
+    "false five-fold claim": {
+      "rejected": true,
+      "reason": "L2 provenance: training manifest differs: five_folds_complete"
+    },
+    "extra fold receipt": {
+      "rejected": true,
+      "reason": "L2 provenance: exactly one training receipt is required"
+    },
+    "incomplete final labels": {
+      "rejected": true,
+      "reason": "L2 provenance: selected labels are an incomplete pilot"
+    },
+    "unconfigured source pin": {
+      "rejected": true,
+      "reason": "L2 provenance: final, completely annotated label generation has not been pinned"
+    }
+  },
+  "actual_checkpoint_run": false
+}

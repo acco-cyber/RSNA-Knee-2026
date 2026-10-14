@@ -1,0 +1,31 @@
+{
+  "kernel": "gwey1025/rsna-knee-l2-smoke-20261015",
+  "kernel_version": 1,
+  "dataset_version": 1,
+  "completed_epochs": 1,
+  "requested_epochs": 1,
+  "five_folds_complete": false,
+  "k_train": 4,
+  "k_eval": 12,
+  "checkpoint_sha256": "aa4c9020522dbc7aa6449247d045a9a477c34519133a664489357ad3f555c0a6",
+  "checkpoint_bytes": 123056832,
+  "full_weak_val_saved": true,
+  "gold_excluded_from_gradient_training": true,
+  "gold_diagnostic_before": 0.9230745796077656,
+  "gold_diagnostic_after": 0.9200921397209325,
+  "gold_is_independent_validation": false,
+  "source_hashes": {
+    "labels_l2.csv": "4e28bbc05c08ae4509d0eab264ebb88365a0b2cb0683dcb40b63bce5b9dab315",
+    "weights_l2.csv": "7d0d5f9a11c28f1ab58bc1dbb4220ea87c34bc75c0104fdc91977353f0db4839",
+    "labels_cons.csv": "0ef1c3b6f35a88ce99916ab52dd78e77f68eaa2646ca6790cfde9e396aee029a",
+    "knee.py": "314c2af387a5cbd1d25f192f19f4ecc6d4ae4b30403e92e9d9b3ed2c325880b1",
+    "warm_start": "334d89ab498799932ab890c36e452eb975e7acdda8b9a0e43322d80fd219dd9b",
+    "trainer": "1fa344820937c1c583345fd05fab300819b8e3fc6d54914466070162afa82911"
+  },
+  "selection": "last fixed epoch; no gold-best selection",
+  "seconds_training_process": 565.231984805,
+  "tensor_entries": 219,
+  "stored_floating_values": 30741112,
+  "all_stored_floating_values_finite": true,
+  "leaderboard_score": null
+}

@@ -85,7 +85,7 @@ Each checkpoint must include `model_name`, constructor configuration, targets/or
 
 ## Runtime planning and offline submission contract
 
-No GPU training benchmark is available to this research agent. Runtime should be measured on the intended Kaggle accelerator, with real decoding and bags, before claiming all five folds fit.
+The later-recovered round-2 ConvNeXt run provides a real 2×T4 benchmark: about 470 seconds per steady-state training epoch, about 587 seconds for its first epoch, and 29,866 seconds for the full five-fold, twelve-epoch job. The four-epoch L2 warm-start is consequently an hours-long job; a single-fold, one-epoch smoke run uses four training windows rather than eight to fit the remaining quota. Its speed and score are not measured until execution completes.
 
 For N studies, F folds, E epochs and K encoded images per study:
 
@@ -124,7 +124,7 @@ Their latest student stage has three five-fold groups: round-1 ConvNeXt-T, round
 
 ### Highest-priority checks before altering student inference
 
-1. The embedded `knee.py`'s `build_study_table` duplicates a present fat-sat/non-fat-sat series into an absent counterpart. The manual student-stage `_prep` does not duplicate missing slots. The stage imports `knee.py` from its attached dataset, rather than the notebook's embedded `own_src` copy. Recover the actual dataset version and training program before deciding whether this is a train/inference mismatch or an intentional newer behavior. Do not fix blindly.
+1. Actual A1 cache and r2 training sources are recovered. They manually select the most-file series for each real acquisition slot and leave absent slots masked. The student-stage `_prep` matches that behavior. An unused `build_study_table` contains fat-sat/non-fat-sat fallback duplication, but it does not establish a mismatch in the actual training path. Preserve the verified six-slot cache recipe, JPEG quality 95, resolution 256, and twelve evaluation windows.
 2. Checkpoint discovery is a broad glob of `student*.pt` across all attached inputs. Attaching five L2 checkpoints would silently change the existing student's 15-model equal average to a 20-model average. L2 would receive only one-quarter of the 0.10 student group, while all existing students are also reweighted. This is not an isolated “10% L2 blend” experiment. Use an explicit checkpoint manifest and separate `r1_convnext`, `r2_convnext`, `r2_effv2`, `l2_convnext` prediction arrays and weights.
 3. Student model constructors recover only the backbone name and assume default head dimensions/depth. Require exact architecture metadata and strict state-dict loading before final scoring. Saved errors currently trigger an outer fallback to the prior submission; that must be visible in the notebook name/report rather than described as a successful L2 result.
 4. Record the original base before every rank stage. Re-ranking several nested blends is non-associative; changing where L2 enters can change rankings even if nominal final weights look equal. An isolated L2 candidate should compare against precisely the same base and current 15-student group, with only its explicit L2 coefficient changed.

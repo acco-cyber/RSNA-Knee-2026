@@ -1,0 +1,524 @@
+{
+  "algorithm": "l2_fixed_round2_report_shares_v1",
+  "studies": 4407,
+  "gold_excluded_from_training": 58,
+  "report_only_studies": 4349,
+  "annotated_studies": 4349,
+  "annotations_complete": true,
+  "is_pilot": false,
+  "teacher_share_within_image": 0.5,
+  "manual_max_share_within_report_at_six_public_sources": 0.14285714285714285,
+  "manual_vote_formula": "confidence / (n_public_sources + confidence) at default settings",
+  "report_share": {
+    "ACL": 0.6,
+    "MCL": 0.6,
+    "Medial Meniscus": 0.5,
+    "Lateral Meniscus": 0.4,
+    "Medial OA": 0.4,
+    "Lateral OA": 0.2,
+    "PF OA": 0.4,
+    "Effusion": 0.2,
+    "Synovitis": 0.2,
+    "Baker's": 0.4,
+    "Contusion": 0.2,
+    "Fracture": 0.25
+  },
+  "round2_families": 2,
+  "teacher_failed_studies": 0,
+  "contradictory_cells": 765,
+  "missing_target_cells": 0,
+  "gold_development_diagnostics": {
+    "public_consensus": {
+      "macro_auc": 0.8886417569235303,
+      "valid_findings": 12,
+      "per_finding": {
+        "ACL": {
+          "studies": 58,
+          "positive": 24,
+          "negative": 34,
+          "auc": 0.9926470588235293
+        },
+        "MCL": {
+          "studies": 58,
+          "positive": 9,
+          "negative": 49,
+          "auc": 0.9863945578231293
+        },
+        "Medial Meniscus": {
+          "studies": 58,
+          "positive": 26,
+          "negative": 32,
+          "auc": 0.9447115384615384
+        },
+        "Lateral Meniscus": {
+          "studies": 58,
+          "positive": 23,
+          "negative": 35,
+          "auc": 0.8763975155279503
+        },
+        "Medial OA": {
+          "studies": 58,
+          "positive": 15,
+          "negative": 43,
+          "auc": 0.9279069767441861
+        },
+        "Lateral OA": {
+          "studies": 58,
+          "positive": 11,
+          "negative": 47,
+          "auc": 0.8181818181818181
+        },
+        "PF OA": {
+          "studies": 58,
+          "positive": 21,
+          "negative": 37,
+          "auc": 0.8828828828828829
+        },
+        "Effusion": {
+          "studies": 58,
+          "positive": 35,
+          "negative": 23,
+          "auc": 0.8732919254658386
+        },
+        "Synovitis": {
+          "studies": 58,
+          "positive": 27,
+          "negative": 31,
+          "auc": 0.7508960573476703
+        },
+        "Baker's": {
+          "studies": 58,
+          "positive": 12,
+          "negative": 46,
+          "auc": 0.931159420289855
+        },
+        "Contusion": {
+          "studies": 58,
+          "positive": 19,
+          "negative": 39,
+          "auc": 0.8549257759784076
+        },
+        "Fracture": {
+          "studies": 58,
+          "positive": 18,
+          "negative": 40,
+          "auc": 0.8243055555555556
+        }
+      }
+    },
+    "image_target": {
+      "macro_auc": 0.9316068329431157,
+      "valid_findings": 12,
+      "per_finding": {
+        "ACL": {
+          "studies": 58,
+          "positive": 24,
+          "negative": 34,
+          "auc": 0.9767156862745097
+        },
+        "MCL": {
+          "studies": 58,
+          "positive": 9,
+          "negative": 49,
+          "auc": 0.9705215419501134
+        },
+        "Medial Meniscus": {
+          "studies": 58,
+          "positive": 26,
+          "negative": 32,
+          "auc": 0.9771634615384616
+        },
+        "Lateral Meniscus": {
+          "studies": 58,
+          "positive": 23,
+          "negative": 35,
+          "auc": 0.8944099378881988
+        },
+        "Medial OA": {
+          "studies": 58,
+          "positive": 15,
+          "negative": 43,
+          "auc": 0.9844961240310077
+        },
+        "Lateral OA": {
+          "studies": 58,
+          "positive": 11,
+          "negative": 47,
+          "auc": 0.8162475822050291
+        },
+        "PF OA": {
+          "studies": 58,
+          "positive": 21,
+          "negative": 37,
+          "auc": 0.8712998712998713
+        },
+        "Effusion": {
+          "studies": 58,
+          "positive": 35,
+          "negative": 23,
+          "auc": 0.9875776397515529
+        },
+        "Synovitis": {
+          "studies": 58,
+          "positive": 27,
+          "negative": 31,
+          "auc": 0.8243727598566308
+        },
+        "Baker's": {
+          "studies": 58,
+          "positive": 12,
+          "negative": 46,
+          "auc": 0.9764492753623188
+        },
+        "Contusion": {
+          "studies": 58,
+          "positive": 19,
+          "negative": 39,
+          "auc": 0.951417004048583
+        },
+        "Fracture": {
+          "studies": 58,
+          "positive": 18,
+          "negative": 40,
+          "auc": 0.9486111111111112
+        }
+      }
+    },
+    "l2_target_before_any_gold_override": {
+      "macro_auc": 0.9402453862515965,
+      "valid_findings": 12,
+      "per_finding": {
+        "ACL": {
+          "studies": 58,
+          "positive": 24,
+          "negative": 34,
+          "auc": 0.9950980392156863
+        },
+        "MCL": {
+          "studies": 58,
+          "positive": 9,
+          "negative": 49,
+          "auc": 0.9886621315192743
+        },
+        "Medial Meniscus": {
+          "studies": 58,
+          "positive": 26,
+          "negative": 32,
+          "auc": 0.9735576923076923
+        },
+        "Lateral Meniscus": {
+          "studies": 58,
+          "positive": 23,
+          "negative": 35,
+          "auc": 0.9254658385093167
+        },
+        "Medial OA": {
+          "studies": 58,
+          "positive": 15,
+          "negative": 43,
+          "auc": 0.9844961240310077
+        },
+        "Lateral OA": {
+          "studies": 58,
+          "positive": 11,
+          "negative": 47,
+          "auc": 0.8336557059961315
+        },
+        "PF OA": {
+          "studies": 58,
+          "positive": 21,
+          "negative": 37,
+          "auc": 0.9060489060489061
+        },
+        "Effusion": {
+          "studies": 58,
+          "positive": 35,
+          "negative": 23,
+          "auc": 0.986335403726708
+        },
+        "Synovitis": {
+          "studies": 58,
+          "positive": 27,
+          "negative": 31,
+          "auc": 0.8375149342891278
+        },
+        "Baker's": {
+          "studies": 58,
+          "positive": 12,
+          "negative": 46,
+          "auc": 0.9710144927536233
+        },
+        "Contusion": {
+          "studies": 58,
+          "positive": 19,
+          "negative": 39,
+          "auc": 0.9338731443994601
+        },
+        "Fracture": {
+          "studies": 58,
+          "positive": 18,
+          "negative": 40,
+          "auc": 0.9472222222222223
+        }
+      }
+    }
+  },
+  "diagnostic_limitations": [
+    "Teacher is in-sample on the report-only pool; subsequent student OOF targets depend on it.",
+    "Gold studies were repeatedly used for model/label selection; these scores are development diagnostics, not independent CV.",
+    "New report annotations exclude all 58 gold studies; gold target AUC does not evaluate new annotation quality.",
+    "L2 target AUC does not forecast student or leaderboard AUC; 0.962 is a target, not an achieved score.",
+    "Legacy public consensus does not expose missing/uncertain source states or independent family count."
+  ],
+  "outputs": {
+    "row_provenance.csv": "45564b7e483be02da6ab0a0913888ad307d74d7a8acaaf4c77652b3b27ca63fe",
+    "labels_l2.csv": "4e28bbc05c08ae4509d0eab264ebb88365a0b2cb0683dcb40b63bce5b9dab315",
+    "weights_l2.csv": "7d0d5f9a11c28f1ab58bc1dbb4220ea87c34bc75c0104fdc91977353f0db4839"
+  },
+  "dataset": "gwey1025/rsna-knee-l2-labels-20261015",
+  "dataset_private": true,
+  "dataset_version": 1,
+  "annotation_manifest_sha256": "dbdbaf8ea5cdb52265b12e4646b4a3353646a0db5c507e1fc4978a39d75ce881",
+  "annotation_state_counts_excluding_gold": {
+    "unmentioned": 14567,
+    "positive": 4993,
+    "uncertain": 4870,
+    "negative": 27758
+  },
+  "duplicate_normalized_report_groups": 52,
+  "duplicate_definite_positive_negative_conflicts": 0,
+  "input_hashes": [
+    {
+      "role": "competition_training_table",
+      "sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33"
+    },
+    {
+      "role": "legacy_public_consensus_and_folds",
+      "sha256": "0ef1c3b6f35a88ce99916ab52dd78e77f68eaa2646ca6790cfde9e396aee029a"
+    },
+    {
+      "role": "image_teacher",
+      "sha256": "09cec791d84aead6480390de6ebad523d341bc474639f613b20387261b892f59"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "1c93f0b258539274233a242b8e1fa8fe44947c2874724fea9130d1e261bedb5c"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "3825473fdbfaf19f4b19c094cd15c9ea84542e82c246f6075f8e988fb6a17f42"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "9e73bdb20663e9f30abdc671c699efa08d2c89905064381fb7d33419ba0f8d0d"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "172804d68bbfe9eec122eb3e5e9cb1ca804a6442d387514060bc3f0bfa762b98"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "21500b4a46a525eae55bcc82c79f53e5f399ce306cb01bb44e6794a48571e409"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "d7d123ad4b531f821094fc43f8fca0de76abe69acb2813c3dfef2c33749ee3e5"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "b2a0107d0cd6a0b6abc1ad0753561606b2d71644d60e173d3ed234cae1c036a2"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "cbc211bf5a4df942ab7385b5158c9b63231d907f3028a8f6edf8dc8c1908c9ab"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "34dc5202926790b2cd09186ee9dfdaf9e93720e29b4707bc48dc67e62f553f4e"
+    },
+    {
+      "role": "round2_prediction",
+      "sha256": "5f1dcb769d1dc2259f339577cd4b0dd360c814b2b3ce2608765e565e3949affb"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "977076bf7cedda7147894fb6ab2d2bd0526bc49fb63726d08b6b800add94d9b0"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "048530087a3d0bd773d777b96bb8e4d829b11dcbbd36275e7c088e1124405814"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "bd5349edbff8fc6accc5c6aef69adb781f08ff9b4de87477abb1bec1a5cf7a22"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "f1c13c792a1af169197c4d92065ea361ef9ad04cde9979e6f425a0680498c397"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "1622a2e388c3a9ead7a5f6dc1dc72901dfc37932c37820be50ed1f580f8d64e3"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "f43cf9361f3962989169a75e554160bc6e069bbdfb18267e53a00303b8cd8171"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "d43b007a6477308888ca70575334c32dd970b1b3aa3e90ac3942c2b1da66eefc"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "ac37c8c1ec248d0524684b3036ffa551fdd138d408148700538f52adede05735"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "e1555724e1631db79553f4234c9984bac12a2f32d2ed67f289a61abf905ddb19"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "930038a6f62e1ac08dd71e158a8f376398dc950b4a343d0a657a7e05d7897314"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "29c5a035e4a0344f88107f43536f8a55c64c02482e841b8e0d08c50208cf383e"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "a78e61db62545f906c82d75cb13be9b92c8e285c799485bf05a50563eed79272"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "cfba2d76251cdc899eed8efcf940de4eec2b7dcfb5e0d24fdb746e73572a7262"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "0e1fcf8f4956c3d13aefb62156fac90c7ef4aca7e82de6d334522877d3b4bda4"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "19fa318023a9db33301dbf0e417a15cc4e64d51a0ea17c7dc100b4e698fe84f3"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "52dc0a1bcd88ad6a25b68eb7b1745b1300aaaf1f3fadbad64904ddb5662c3ecc"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "8b87209321d5d3ac17a234d95d753e3b34098e170d807becb7b0611478095657"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "ed3980481bb16963d6b80e19d3b7e6d67d6327e69dec27a1b2e9cff54e85e83b"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "e4acccb1e8063f049f23acdf2fccc7bf98d33f3b85ae0d848c0d2f833add21fa"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "5a532e8d2aed368220910ff542c0818451b7e90e0ce7d36bd74330a9611ca72e"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "e6a2cda40382db12e886830ea48c640f0b38c4646cbe0fca09971749dc1489a1"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "8666c7589f323691fd4c00336d5d59aca3dd64f3b9cad23a61318ccf4b6def93"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "1aea4157ec86847328082650b42f2d534c4507e3ab610a74fc30477fd49a21c4"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "1fef23744d68ea47c61b922bfed34c5af438a5790162196c5cf1b143826b64c9"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "ff38e27cf6f0cffa4ef99d8fd2fde9f3678cd888fd815d05f8a1f4bca4445af5"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "4202684758b85475b77917fc85379fdae1b16429c8861170888ac1eeb2e50508"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "6382e1112a64e59171fada0df3c4ab19ca43a0230ff55dbce6df8499e504bbff"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "ff83b34a3ea3ed36e903d039c4e548517f6552d016950a919d36a98759758415"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "38050ea3073481823ded56f33ad119b2efbb6879fb12b1a2485cb088de081517"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "8a7d23e159843fb1bbe3684ac2526a4f9b1075c28811e6b8d9e6431359fb420c"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "7a60af83155103c202abf2b92e2df7fcb3818f31ee173ca0960c28e9898342b0"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "b98dc3fa11db682eadefade91373a4c8b28c685ae5419a5610d977d46c10e1ea"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "ceeb6e35542b61b2352f6b1e6eae7c7aef69b752878a3993aaea7ed6a8645645"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "27e4914e33c38d2854ef34484d5208397b7bcb21d7da28f40fb52a7824d4f8dd"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "f3bee03f3f77338b8eba1293bbc2f2f54f347b902f1ae5355366170678211ac0"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "317438d8c1b1d4b76b52125c5b4b77d758bf1d99a7a983f1fa6286a15ba4f228"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "c7f134b8f736601483b4e509db97701285ca23cc70632464f26a196ec65c5ae8"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "360a3019064892441dd66c10473457a50003cbcb13c3b57dce4215c70c0f8606"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "ef9bb3a2203f48c78782eb44e9ae0c880423a5ea9551fe18c48d77a261b560f8"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "3ef4149df185225bd453489b18f05c394e511c6c2b831a07a6321fa8a7a826cf"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "4c83305dca775e9bd29515b2f32b5ab33ed8c9923e992e9769889b720ec97b19"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "0b25c21fc4e7b957d561226e412bd8f1afd8f0bb795414353ba2462c5c966f24"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "14207a515d1740e416838140c55f68318e29a5613720eef48b6b33a282efa9df"
+    },
+    {
+      "role": "new_report_annotations",
+      "sha256": "52da9150e2c20c4bac28a52d5dcf14731ab9a4e015dd24e26a6c1a11835a2da8"
+    },
+    {
+      "role": "public_consensus_source_counts",
+      "sha256": "eb5ab9c7ff721f6aad57dd39c661960a75885b9a83a81fa7bc5b181866ef5e3d"
+    }
+  ]
+}
